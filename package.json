@@ -29,10 +29,12 @@
   "scripts": {
     "commit": "git add .&& cz",
     "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier . --write"
   },
   "lint-staged": {
-    "*.{mjs,js,ts,tsx,cjs}": "eslint --fix",
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{mjs,js,jsx,ts,tsx,cjs}": "eslint --fix",
     "package.json": "sort-package-json",
     "packages/**/package.json": "sort-package-json"
   },
