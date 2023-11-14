@@ -1,0 +1,41 @@
+{
+  "name": "@denaro/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 typescript 项目。",
+  "keywords": [
+    "denaro",
+    "eslint",
+    "eslint-config",
+    "eslint-config-typescript"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-typescript-sort-keys": "^3.1.0"
+  },
+  "devDependencies": {
+    "@denaro/eslint-config-basic": "workspace:^"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

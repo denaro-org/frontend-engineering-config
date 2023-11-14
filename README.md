@@ -6,9 +6,17 @@
 
 ### 1.1. 工程化 commit 规范类包
 
-- [commitlint](./packages/commitlint/README.md)
-- [cz-git](./packages/cz-git/README.md)
- 
+- [config-commitlint](./packages/commitlint/README.md)
+- [config-cz-git](./packages/cz-git/README.md)
+
+### 1.2. 工程化代码规范类包
+
+- [eslint-config-basic](./packages/basic/README.md)
+- [eslint-config-prettier](./packages/eslint-prettier/README.md)
+- [eslint-config-javascript](./packages/javascript/README.md)
+- [prettier](./packages/prettier/README.md)
+- [eslint-config-typescript](./packages/typescript/README.md)
+
 ## 2. 项目优点
 
 - 一键安装，一键配置，一键使用
@@ -18,11 +26,11 @@
 ## 3. 项目安装
 
 ```bash
-npm install -D @denaro/{config-commitlint,config-cz-git}
+npm install -D @denaro/{config-commitlint,config-cz-git,...}
 # or
-pnpm install -D @denaro/{config-commitlint,config-cz-git}
+pnpm install -D @denaro/{config-commitlint,config-cz-git,...}
 # or
-yarn add -D @denaro/{config-commitlint,config-cz-git}
+yarn add -D @denaro/{config-commitlint,config-cz-git,...}
 ```
 
 ## 4. 项目使用
