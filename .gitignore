@@ -17,3 +17,6 @@ yarn-error.log*
 # build
 dist
 lib
+
+# others
+.DS_Store

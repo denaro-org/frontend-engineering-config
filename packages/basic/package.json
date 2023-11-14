@@ -1,0 +1,28 @@
+{
+  "name": "@denaro/eslint-config-basic",
+  "version": "1.0.0",
+  "description": "前端工程化中的 eslint 通用配置, 提供较为基础的 rules 规则。",
+  "keywords": [
+    "denaro",
+    "eslint",
+    "eslint-config",
+    "eslint-config-basic"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
