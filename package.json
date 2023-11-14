@@ -50,6 +50,11 @@
     }
   },
   "devDependencies": {
+    "@denaro-config/config-commitlint": "workspace:^",
+    "@denaro-config/config-cz-git": "workspace:^",
+    "@denaro-config/eslint-config-javascript": "workspace:^",
+    "@denaro-config/eslint-config-prettier": "workspace:^",
+    "@denaro-config/prettier": "workspace:^",
     "bumpp": "^9.2.0",
     "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.53.0",
