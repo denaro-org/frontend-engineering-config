@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@denaro/config-commitlint']
+  extends: ['@denaro-config/config-commitlint']
 }

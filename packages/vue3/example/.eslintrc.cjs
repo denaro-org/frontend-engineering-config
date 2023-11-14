@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@denaro/eslint-config-vue3']
+  extends: ['@denaro-config/eslint-config-vue3']
 }

@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@denaro/prettier')
+  ...require('@denaro-config/prettier')
 }

@@ -1,25 +1,16 @@
-# @denaro/eslint-config-vue
+# @denaro-config/eslint-config-vue
 
 > :tada: 前端工程化中的 vue3 项目通用配置, 严格遵守 eslint-plugin-vue 官网推荐的风格规范。
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/%40denaro%2Feslint-config-vue" target="_blank">
-    <img alt="npm" src="https://img.shields.io/npm/v/%40denaro%2Feslint-config-vue">
-  </a>
-  <a href="https://github.com/denaro-org/frontend-engineering-config/stargazers" target="_blank">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/denaro-org/frontend-engineering-config">
-  </a>
-  <a href="https://github.com/denaro-org/frontend-engineering-config/issues" target="_blank">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/denaro-org/frontend-engineering-config">
-  </a>
-  <br />  
-  <a href="https://www.jsdelivr.com/package/npm/%40denaro%2Feslint-config-vue" target="_blank">
-    <img alt="jsDelivr hits (npm scoped)" src="https://img.shields.io/jsdelivr/npm/hd/%40denaro%2Feslint-config-vue">
-  </a>
-  <a href="https://github.com/frontend-engineering-config/blob/main/LICENSE" target="_blank">
-    <img alt="NPM" src="https://img.shields.io/npm/l/%40denaro%2Feslint-config-vue">
-  </a>
-</p>
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/eslint-config-vue3?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Feslint-config-vue3)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Feslint-config-vue3?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config)
+![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fstargazers)
+![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fissues)
+
+![npm](https://img.shields.io/npm/dw/%40denaro-config/eslint-config-vue3?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Feslint-config-vue3)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Feslint-config-vue3?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Feslint-config-vue3)
 
 ## 参考官网地址
 
@@ -28,11 +19,11 @@
 ## 安装至您的项目
 
 ```bash
-npm install -D @denaro/eslint-config-vue
+npm install -D @denaro-config/eslint-config-vue3
 # or
-pnpm install -D @denaro/eslint-config-vue
+pnpm install -D @denaro-config/eslint-config-vue3
 # or
-yarn add -D @denaro/eslint-config-vue
+yarn add -D @denaro-config/eslint-config-vue3
 ```
 
 ## 使用
@@ -41,7 +32,7 @@ yarn add -D @denaro/eslint-config-vue
 
 ```js
 module.exports = {
-  extends: ['@denaro/eslint-config-vue']
+  extends: ['@denaro-config/eslint-config-vue3']
 }
 ```
 

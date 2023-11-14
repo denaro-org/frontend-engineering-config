@@ -1,5 +1,5 @@
 {
-  "name": "@denaro/eslint-config-typescript",
+  "name": "@denaro-config/eslint-config-typescript",
   "version": "1.0.0",
   "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 typescript 项目。",
   "keywords": [
@@ -29,7 +29,7 @@
     "eslint-plugin-typescript-sort-keys": "^3.1.0"
   },
   "devDependencies": {
-    "@denaro/eslint-config-basic": "workspace:^"
+    "@denaro-config/eslint-config-basic": "workspace:^"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",

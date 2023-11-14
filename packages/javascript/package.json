@@ -1,5 +1,5 @@
 {
-  "name": "@denaro/eslint-config-javascript",
+  "name": "@denaro-config/eslint-config-javascript",
   "version": "1.0.0",
   "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 javascript 项目。",
   "keywords": [
@@ -27,7 +27,7 @@
     "eslint-plugin-promise": "^6.1.1"
   },
   "devDependencies": {
-    "@denaro/eslint-config-basic": "workspace:^"
+    "@denaro-config/eslint-config-basic": "workspace:^"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"

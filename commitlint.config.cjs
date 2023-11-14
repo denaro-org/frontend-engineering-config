@@ -4,6 +4,7 @@ const path = require('node:path')
 const packages = fs.readdirSync(path.resolve(__dirname, 'packages'))
 
 module.exports = {
+  extends: ['@denaro-config/config-commitlint'],
   prompt: {
     scopes: [...packages]
   },

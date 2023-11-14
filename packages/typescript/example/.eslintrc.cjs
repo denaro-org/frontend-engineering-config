@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@denaro/eslint-config-typescript']
+  extends: ['@denaro-config/eslint-config-typescript']
 }

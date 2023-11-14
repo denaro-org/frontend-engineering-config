@@ -2,7 +2,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'typescript-sort-keys'],
 
   extends: [
-    '@denaro/eslint-config-basic',
+    '@denaro-config/eslint-config-basic',
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',

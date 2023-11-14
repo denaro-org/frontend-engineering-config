@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@denaro/eslint-config-javascript', '@denaro/eslint-config-prettier']
+  extends: ['@denaro-config/eslint-config-javascript', '@denaro-config/eslint-config-prettier']
 }
