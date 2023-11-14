@@ -1,0 +1,47 @@
+{
+  "name": "frontend-engineering-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "前端工程化通用配置整理集合, 包含 eslint、commitlint、typescript 等通用配置",
+  "keywords": [
+    "denaro",
+    "config",
+    "monorepo",
+    "eslint",
+    "commitlint",
+    "husky",
+    "lint-staged",
+    "conventional-changelog"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "git add .&& cz",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json",
+    "packages/**/package.json": "sort-package-json"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-git"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "sort-package-json": "^2.6.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@denaro/config-cz-git",
+  "version": "1.0.0",
+  "description": "前端工程化中的 cz-git 通用配置, 与 Commitlint 配合, 获取 Commitlint 相关配置, 给予命令行提示信息。",
+  "keywords": [
+    "denaro",
+    "config",
+    "cz-git",
+    "git-cz",
+    "commitizen",
+    "commit",
+    "cz"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.7.1"
+  },
+  "peerDependencies": {
+    "commitizen": ">4.0.0",
+    "cz-git": ">1.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

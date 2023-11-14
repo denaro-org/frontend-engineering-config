@@ -1,0 +1,32 @@
+{
+  "name": "@denaro/config-commitlint",
+  "version": "1.0.0",
+  "description": "前端工程化中的 commitlint 通用配置, 规范您的 commit message。",
+  "keywords": [
+    "denaro",
+    "config",
+    "commitlint"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "@commitlint/cli": "18.4.0",
+    "@commitlint/config-conventional": "18.4.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">18.0.0",
+    "@commitlint/config-conventional": ">18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
