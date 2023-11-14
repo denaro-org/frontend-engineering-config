@@ -16,6 +16,7 @@
 - [eslint-config-javascript](./packages/javascript/README.md)
 - [prettier](./packages/prettier/README.md)
 - [eslint-config-typescript](./packages/typescript/README.md)
+- [eslint-config-vue3](./packages/vue3/README.md)
 
 ## 2. 项目优点
 

@@ -6,11 +6,11 @@
   <a href="https://www.npmjs.com/package/%40denaro%2Feslint-config-javascript" target="_blank">
     <img alt="npm" src="https://img.shields.io/npm/v/%40denaro%2Feslint-config-javascript">
   </a>
-  <a href="https://github.com/frontend-engineering-config/stargazers" target="_blank">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/frontend-engineering-config">
+  <a href="https://github.com/denaro-org/frontend-engineering-config/stargazers" target="_blank">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/denaro-org/frontend-engineering-config">
   </a>
-  <a href="https://github.com/frontend-engineering-config/issues" target="_blank">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/frontend-engineering-config">
+  <a href="https://github.com/denaro-org/frontend-engineering-config/issues" target="_blank">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/denaro-org/frontend-engineering-config">
   </a>
   <br />  
   <a href="https://www.jsdelivr.com/package/npm/%40denaro%2Feslint-config-javascript" target="_blank">
@@ -47,8 +47,8 @@ module.exports = {
 
 ## 结合 commitlint 使用
 
-> 参考 [commitlint](../config-packages/commitlint/README.md)
+> 参考 [commitlint](../commitlint/README.md)
 
 ## 结合 cz-git 使用
 
-> 参考 [cz-git](../config-packages/cz-git/README.md)
+> 参考 [cz-git](../cz-git/README.md)
