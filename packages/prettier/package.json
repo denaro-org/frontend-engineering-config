@@ -1,0 +1,31 @@
+{
+  "name": "@denaro/prettier",
+  "version": "1.0.0",
+  "description": "前端工程化中的 prettier 通用配置, 补充 eslint 的不足之处, 尽情享受 prettier 带来的代码舒适度。",
+  "keywords": [
+    "denaro",
+    "config",
+    "prettier",
+    "eslint"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "prettier": ">3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
