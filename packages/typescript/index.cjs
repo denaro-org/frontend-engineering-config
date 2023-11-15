@@ -1,4 +1,9 @@
+/** @type {import('eslint').Linter.BaseConfig} */
+// @ts-check
+
 module.exports = {
+  $schema: 'https://json.schemastore.org/eslintrc.json',
+
   plugins: ['@typescript-eslint', 'typescript-sort-keys'],
 
   extends: [
