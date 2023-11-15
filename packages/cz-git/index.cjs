@@ -1,3 +1,6 @@
+/** @type {import('cz-git').Config} */
+// @ts-check
+
 module.exports = {
   messages: {
     type: "Select the type of change that you're committing:",
