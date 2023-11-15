@@ -1,0 +1,32 @@
+{
+  "name": "@denaro-config/tsconfig",
+  "version": "1.0.0",
+  "description": "前端工程化中的 tsconfig 通用配置, 提供多种打包场景的 tsconfig 配置, 您可以执行进行继承使用。",
+  "keywords": [
+    "denaro",
+    "config",
+    "tsconfig",
+    "typescript",
+    "eslint"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

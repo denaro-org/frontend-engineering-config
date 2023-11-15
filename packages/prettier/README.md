@@ -53,4 +53,4 @@ module.exports = {
 
 ## 结合 eslint 使用
 
-> 参考 [prettier](../prettier/README.md)
+> 参考 [eslint-prettier](../eslint-prettier/README.md)
