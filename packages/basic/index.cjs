@@ -1,4 +1,9 @@
+/** @type {import('eslint').Linter.BaseConfig} */
+// @ts-check
+
 module.exports = {
+  $schema: 'https://json.schemastore.org/eslintrc.json',
+
   root: true,
 
   env: {
@@ -41,6 +46,22 @@ module.exports = {
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
         allowSeparatedGroups: false
+      }
+    ],
+    // 针对注释的空格限制
+    'spaced-comment': [
+      'error',
+      'always',
+      {
+        line: {
+          markers: ['/'],
+          exceptions: ['-', '+']
+        },
+        block: {
+          markers: ['!'],
+          exceptions: ['*'],
+          balanced: true
+        }
       }
     ]
   }
