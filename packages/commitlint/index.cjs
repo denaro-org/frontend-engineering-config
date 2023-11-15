@@ -1,3 +1,6 @@
+/** @type {import('@commitlint/types').UserConfig} */
+// @ts-check
+
 module.exports = {
   /*
    * Resolve and load @commitlint/config-conventional from node_modules.
