@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.0...v1.1.1) (2023-11-16)
+
+### Bug Fixes
+
+- **typescript:** :bug: 添加 ignorePatterns 以修复 ts 项目中 eslint 也会去检测 .eslintrc.\* 文件 ([227e8ba](https://github.com/denaro-org/frontend-engineering-config/commit/227e8ba9e6c68d1a519bf8e870270b7881bc2eab))
+
 # [1.1.0](https://github.com/denaro-org/frontend-engineering-config/compare/v1.0.0...v1.1.0) (2023-11-16)
 
 ### Features
