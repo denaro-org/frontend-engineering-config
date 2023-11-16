@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-prettier",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "前端工程化中的 prettier 通用配置, 补充 eslint 的不足之处, 尽情享受 prettier 带来的代码舒适度。",
   "keywords": [
     "denaro",
