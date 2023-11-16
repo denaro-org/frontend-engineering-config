@@ -4,5 +4,9 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/eslintrc.json',
 
-  extends: ['@denaro-config/eslint-config-basic', 'eslint:recommended', 'standard']
+  extends: [
+    '@denaro-config/eslint-config-basic',
+    'eslint:recommended',
+    'standard'
+  ]
 }

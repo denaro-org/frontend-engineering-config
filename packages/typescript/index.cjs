@@ -15,6 +15,8 @@ module.exports = {
     'standard-with-typescript'
   ],
 
+  ignorePatterns: ['.eslintrc.*'],
+
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 'latest'

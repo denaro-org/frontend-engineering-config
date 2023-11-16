@@ -25,7 +25,7 @@ module.exports = {
     // 缩进两个空格
     indent: ['error', 2, { SwitchCase: 1 }],
     // 每行最大长度, 忽略注释
-    'max-len': ['error', { code: 120, ignoreComments: true }],
+    'max-len': ['error', { code: 80, ignoreComments: true }],
     // import 语句之后强制空一行
     'import/newline-after-import': ['error', { count: 1 }],
     // import 语句排序
@@ -33,10 +33,19 @@ module.exports = {
       'error',
       {
         alphabetize: { order: 'asc', caseInsensitive: true },
-        groups: ['type', ['builtin', 'external'], 'internal', ['sibling', 'parent'], 'index', 'unknown'],
+        groups: [
+          'type',
+          ['builtin', 'external'],
+          'internal',
+          ['sibling', 'parent'],
+          'index',
+          'unknown'
+        ],
         'newlines-between': 'always'
       }
     ],
+    'array-bracket-spacing': ['error', 'always'],
+    'object-curly-spacing': ['error', 'always'],
     // import 语句排序
     'sort-imports': [
       'error',
