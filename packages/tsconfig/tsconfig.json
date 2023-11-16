@@ -8,12 +8,10 @@
     "declaration": true,
     // 为 d.ts 文件创建 sourceMap。
     "declarationMap": false,
-    // 指定一组描述目标运行时环境的捆绑库声明文件。
-    "lib": ["DOM", "ESNext", "DOM.Iterable"],
     // 指定生成什么模块代码。
     "module": "CommonJS",
     // 指定 TypeScript 如何从给定的模块说明符查找文件。
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     // 设置文件的换行符。
     "newLine": "lf",
     // 如果报告任何类型检查错误，请禁用发出文件。
@@ -44,6 +42,8 @@
     "types": ["@types/node"],
     "outDir": "lib"
   },
+
+  "references": [{ "path": "./tsconfig.dom.json" }],
 
   "exclude": ["node_modules", "lib", "dist"]
 }

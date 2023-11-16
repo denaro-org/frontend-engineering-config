@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "compilerOptions": {
+    // 指定一组描述目标运行时环境的捆绑库声明文件。
+    "lib": ["DOM", "ESNext", "DOM.Iterable"]
+  }
+}

@@ -30,9 +30,27 @@ yarn add -D @denaro-config/tsconfig
 
 在项目根目录下创建 `tsconfig.json` 文件, 参考配置内容如下：
 
+- CommonJS
+
 ```json
 {
   "extends": "@tsconfig/eslint-config/tsconfig.json"
+}
+```
+
+- ESNext
+
+```json
+{
+  "extends": "@tsconfig/eslint-config/tsconfig.esnext.json"
+}
+```
+
+- Vue3
+
+```json
+{
+  "extends": "@tsconfig/eslint-config/tsconfig.vue3.json"
 }
 ```
 

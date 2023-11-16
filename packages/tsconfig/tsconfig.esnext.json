@@ -3,5 +3,8 @@
 
   "extends": "./tsconfig.json",
 
-  "include": [".eslintrc.*"]
+  "compilerOptions": {
+    // 指定生成什么模块代码。
+    "module": "ESNext"
+  }
 }

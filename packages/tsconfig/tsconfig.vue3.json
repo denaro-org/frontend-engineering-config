@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "@vue/tsconfig/tsconfig.json",
+
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"]
+  },
+
+  "exclude": ["node_modules", "lib", "dist"]
+}

@@ -18,6 +18,10 @@
 - [eslint-config-typescript](./packages/typescript/README.md)
 - [eslint-config-vue3](./packages/vue3/README.md)
 
+### 1.3. 工程化配置整合类包
+
+- [tsconfig](./packages/tsconfig/README.md)
+
 ## 2. 项目优点
 
 - 一键安装，一键配置，一键使用
