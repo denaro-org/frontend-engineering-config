@@ -2,15 +2,15 @@
 
 > :tada: 前端工程化中的 tsconfig 通用配置, 提供多种打包场景的 tsconfig 配置, 您可以执行进行继承使用。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/tsconfig?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fprettier)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fprettier?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/tsconfig?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Ftsconfig)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Ftsconfig?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config)
 ![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fstargazers)
 ![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fissues)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/tsconfig?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fprettier)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fprettier?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Fprettier)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/tsconfig?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Ftsconfig)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Ftsconfig?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Ftsconfig)
 
 ## 参考官网地址
 

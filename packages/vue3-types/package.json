@@ -1,0 +1,33 @@
+{
+  "name": "@denaro-config/vue3-types",
+  "version": "1.0.0",
+  "description": "提供 vue3 项目的全局 d.ts 类型声明文件, 安装即可无需额外的配置。",
+  "keywords": [
+    "denaro",
+    "tsconfig",
+    "typescript",
+    "vue",
+    "vue3",
+    "d.ts",
+    "types"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "devDependencies": {
+    "vue": "^3.3.8"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

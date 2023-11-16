@@ -4,3 +4,4 @@ demo/*
 *-lock.json
 lib/*
 example/
+*.d.ts
