@@ -39,8 +39,7 @@
     // 指定生成什么 JSX 代码。
     "jsx": "preserve",
     // 指定要包含但不在源文件中引用的类型包名称。
-    "types": ["@types/node"],
-    "outDir": "lib"
+    "types": ["@types/node"]
   },
 
   "references": [{ "path": "./tsconfig.dom.json" }],
