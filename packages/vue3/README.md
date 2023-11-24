@@ -2,15 +2,16 @@
 
 > :tada: 前端工程化中的 vue3 项目通用配置, 严格遵守 eslint-plugin-vue 官网推荐的风格规范。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/eslint-config-vue3?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Feslint-config-vue3)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Feslint-config-vue3?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/eslint-config-vue3)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Feslint-config-vue3)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config)
-![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fstargazers)
-![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fissues)
+![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config)
+![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config)
+![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config)
+![GitHub top language](https://img.shields.io/github/languages/top/denaro-org/frontend-engineering-config)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/eslint-config-vue3?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Feslint-config-vue3)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Feslint-config-vue3?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Feslint-config-vue3)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/eslint-config-vue3)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Feslint-config-vue3)
 
 ## 参考官网地址
 
@@ -33,6 +34,14 @@ yarn add -D @denaro-config/eslint-config-vue3
 ```js
 module.exports = {
   extends: ['@denaro-config/eslint-config-vue3']
+}
+```
+
+你也可以在配置中省略 `eslint-config`：
+
+```js
+module.exports = {
+  extends: ['@denaro-config/vue3']
 }
 ```
 

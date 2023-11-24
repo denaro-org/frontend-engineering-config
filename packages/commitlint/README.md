@@ -2,15 +2,16 @@
 
 > :tada: 前端工程化中的 commitlint 通用配置, 规范您的 commit message。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/config-commitlint?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fconfig-commitlint)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fconfig-commitlint?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/config-commitlint)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fconfig-commitlint)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config)
-![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fstargazers)
-![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fissues)
+![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config)
+![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config)
+![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config)
+![GitHub top language](https://img.shields.io/github/languages/top/denaro-org/frontend-engineering-config)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/config-commitlint?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fconfig-commitlint)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fconfig-commitlint?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Fconfig-commitlint)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/config-commitlint)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fconfig-commitlint)
 
 ## 参考官网地址
 
