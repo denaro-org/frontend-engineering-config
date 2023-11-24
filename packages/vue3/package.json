@@ -23,7 +23,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-plugin-vue": "^9.18.1"
   },
   "devDependencies": {
