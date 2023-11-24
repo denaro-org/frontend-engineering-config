@@ -52,6 +52,7 @@
   "devDependencies": {
     "@denaro-config/config-commitlint": "workspace:^",
     "@denaro-config/config-cz-git": "workspace:^",
+    "@denaro-config/eslint-config-check-file": "workspace:^",
     "@denaro-config/eslint-config-javascript": "workspace:^",
     "@denaro-config/eslint-config-prettier": "workspace:^",
     "@denaro-config/prettier": "workspace:^",
