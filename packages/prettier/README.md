@@ -2,15 +2,16 @@
 
 > :tada: 前端工程化中的 prettier 通用配置, 补充 eslint 的不足之处, 尽情享受 prettier 带来的代码舒适度。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/prettier?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fprettier)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fprettier?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fblob%2Fmain%2FLICENSE)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/prettier)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fprettier)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config)
-![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fstargazers)
-![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config?link=https%3A%2F%2Fgithub.com%2Fdenaro-org%2Ffrontend-engineering-config%2Fissues)
+![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config)
+![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config)
+![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config)
+![GitHub top language](https://img.shields.io/github/languages/top/denaro-org/frontend-engineering-config)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/prettier?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40vuepress-config%2Fprettier)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fprettier?link=https%3A%2F%2Fwww.jsdelivr.com%2Fpackage%2Fnpm%2F%40denaro-config%2Fprettier)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/prettier)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fprettier)
 
 ## 参考官网地址
 
