@@ -55,6 +55,59 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
+- Vite+Vue 项目
+
+- `tsconfig.json`
+
+```json
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
+```
+
+- `tsconfig.app.json`
+
+```json
+{
+  "extends": "@denaro-config/tsconfig/tsconfig.vue3.json",
+
+  "include": [
+    "env.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+
+  "exclude": ["src/**/__tests__/*", "node_modules", "lib", "dist"]
+}
+```
+
+- `tsconfig.node.json`
+
+```json
+{
+  "extends": "@denaro-config/tsconfig/tsconfig.node.json",
+
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "nightwatch.conf.*",
+    "playwright.config.*"
+  ]
+}
+```
+
 ## 结合 eslint 使用
 
 > 参考 [typescript](../typescript/README.md)

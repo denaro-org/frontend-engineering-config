@@ -33,6 +33,11 @@ yarn add -D @denaro-config/vue3-types
 在项目的根目录下创建 `env.d.ts` 文件, 参考配置内容如下：
 
 ```ts
-/// <reference types="vite/client" />
 /// <reference types="@denaro-config/vue3-types/shims-vue" />
+```
+
+有使用 vite 的项目需要额外的配置：
+
+```ts
+/// <reference types="vite/client" />
 ```
