@@ -1,3 +1,13 @@
+## [1.2.2](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.1...v1.2.2) (2023-11-30)
+
+### Bug Fixes
+
+- **vue3:** :bug: 补充缺失的依赖包 ([473603c](https://github.com/denaro-org/frontend-engineering-config/commit/473603c7166bb8320745f90ae1a7d70ab9f0bb19))
+
+### Features
+
+- **vue3:** :sparkles: 补充 vue3 代码整理 rules 规则 ([5c24d02](https://github.com/denaro-org/frontend-engineering-config/commit/5c24d027f1b721c8fabd409f062ccd818134f257))
+
 ## [1.2.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.0...v1.2.1) (2023-11-30)
 
 ### Bug Fixes
