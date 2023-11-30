@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.1...v1.2.0) (2023-11-30)
+
+### Bug Fixes
+
+- **tsconfig:** :bug: 去除不合适的配置项 ([9ea1a0b](https://github.com/denaro-org/frontend-engineering-config/commit/9ea1a0bd7810857327f596188aeb881460fddd60))
+
+### Features
+
+- **check-file:** :sparkles: 前端工程化中的 eslint 通用配置 ([7d9cc02](https://github.com/denaro-org/frontend-engineering-config/commit/7d9cc0221919551bfcb09f71521ff49462324f21))
+- **stylelint:** :sparkles: 前端工程化中的 stylelint 通用配置 ([7232302](https://github.com/denaro-org/frontend-engineering-config/commit/723230283ec558e9c4e6e09c0679732d7e24de84))
+- **tsconfig:** :sparkles: 更新 tsconfig 配置 ([d748d8c](https://github.com/denaro-org/frontend-engineering-config/commit/d748d8c3077068103146b27ae6879afac7ab8284))
+- **vue3-types:** :sparkles: 拓展 shims-vue.d.ts, 提供更多的文件类型声明 ([179fe16](https://github.com/denaro-org/frontend-engineering-config/commit/179fe16cb2b94b3eeb234749c6626f3b202d04cc))
+
 ## [1.1.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.0...v1.1.1) (2023-11-16)
 
 ### Bug Fixes
