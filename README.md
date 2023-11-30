@@ -12,15 +12,18 @@
 ### 1.2. 工程化代码规范类包
 
 - [eslint-config-basic](./packages/basic/README.md)
+- [eslint-config-check-file](./packages/check-file/README.md)
 - [eslint-config-prettier](./packages/eslint-prettier/README.md)
 - [eslint-config-javascript](./packages/javascript/README.md)
 - [prettier](./packages/prettier/README.md)
+- [stylelint](./packages/stylelint/README.md)
 - [eslint-config-typescript](./packages/typescript/README.md)
 - [eslint-config-vue3](./packages/vue3/README.md)
 
 ### 1.3. 工程化配置整合类包
 
 - [tsconfig](./packages/tsconfig/README.md)
+- [vue3-types](./packages/vue3-types/README.md)
 
 ## 2. 项目优点
 
