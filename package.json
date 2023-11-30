@@ -29,7 +29,7 @@
   "scripts": {
     "commit": "git add .&& cz",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
-    "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
+    "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix .",
     "prepare": "husky install",
     "prettier": "prettier . --write",
     "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
@@ -40,7 +40,7 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown",
-    "*.{mjs,js,jsx,ts,tsx,cjs}": "eslint --fix",
+    "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --fix",
     "package.json": "sort-package-json",
     "packages/**/package.json": "sort-package-json"
   },
