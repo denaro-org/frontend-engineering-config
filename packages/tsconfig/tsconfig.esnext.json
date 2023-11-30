@@ -1,10 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
 
-  "extends": "./tsconfig.json",
-
   "compilerOptions": {
+    // 启用允许 TypeScript 项目与项目引用一起使用的约束。
+    "composite": true,
     // 指定生成什么模块代码。
-    "module": "ESNext"
+    "module": "ESNext",
+    // 指定 TypeScript 如何从给定的模块说明符查找文件。
+    "moduleResolution": "Bundler",
+    // 指定要包含但不在源文件中引用的类型包名称。
+    "types": ["node"]
   }
 }

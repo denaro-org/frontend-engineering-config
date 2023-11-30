@@ -1,6 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
 
+  "extends": ["./tsconfig.dom.json"],
+
   "compilerOptions": {
     // 启用允许 TypeScript 项目与项目引用一起使用的约束。
     "composite": true,
@@ -41,8 +43,6 @@
     // 指定要包含但不在源文件中引用的类型包名称。
     "types": ["@types/node"]
   },
-
-  "references": [{ "path": "./tsconfig.dom.json" }],
 
   "exclude": ["node_modules", "lib", "dist"]
 }
