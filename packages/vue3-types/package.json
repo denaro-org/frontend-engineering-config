@@ -22,7 +22,7 @@
   "license": "MIT",
   "author": "vxhly <pengchengou@gmail.com>",
   "devDependencies": {
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   },
   "peerDependencies": {
     "vue": "^3.3.0"

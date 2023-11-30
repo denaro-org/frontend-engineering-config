@@ -50,7 +50,7 @@ module.exports = {
 ```json
 {
   "scripts": {
-    "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix ."
+    "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix ."
   }
 }
 ```

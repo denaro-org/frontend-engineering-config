@@ -24,10 +24,10 @@
   "main": "index.cjs",
   "dependencies": {
     "eslint": "^8.54.0",
-    "eslint-plugin-vue": "^9.18.1"
+    "eslint-plugin-vue": "^9.19.1"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.7"
+    "@types/eslint": "^8.44.8"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
