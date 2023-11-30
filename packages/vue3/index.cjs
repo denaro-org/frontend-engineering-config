@@ -4,24 +4,30 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/eslintrc.json',
 
-  overrides: [
-    {
-      files: ['*.vue'],
+  root: true,
 
-      globals: {
-        defineEmits: 'readonly',
-        defineProps: 'readonly',
-        defineOptions: 'readonly',
-        withDefaults: 'readonly',
-        defineExpose: 'readonly'
-      },
+  env: {
+    browser: true,
+    es6: true,
+    es2021: true,
+    node: true
+  },
 
-      extends: [
-        'plugin:vue/base',
-        'plugin:vue/vue3-essential',
-        'plugin:vue/vue3-recommended',
-        'plugin:vue/vue3-strongly-recommended'
-      ]
-    }
+  globals: {
+    defineEmits: 'readonly',
+    defineProps: 'readonly',
+    defineOptions: 'readonly',
+    withDefaults: 'readonly',
+    defineExpose: 'readonly'
+  },
+
+  extends: [
+    'plugin:vue/base',
+    'eslint:recommended',
+    '@vue/eslint-config-typescript',
+    '@vue/eslint-config-prettier/skip-formatting',
+    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
+    'plugin:vue/vue3-strongly-recommended'
   ]
 }
