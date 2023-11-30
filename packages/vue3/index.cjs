@@ -29,5 +29,40 @@ module.exports = {
     'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
     'plugin:vue/vue3-strongly-recommended'
-  ]
+  ],
+
+  ignorePatterns: [
+    'dist',
+    'node_modules',
+    'coverage',
+    'packages/*/dist',
+    'lib'
+  ],
+
+  rules: {
+    'vue/max-len': [
+      'error',
+      {
+        code: 80,
+        template: 80,
+        tabWidth: 2,
+        comments: 80,
+        ignorePattern: '',
+        ignoreComments: false,
+        ignoreTrailingComments: false,
+        ignoreUrls: false,
+        ignoreStrings: false,
+        ignoreTemplateLiterals: false,
+        ignoreRegExpLiterals: false,
+        ignoreHTMLAttributeValues: false,
+        ignoreHTMLTextContents: false
+      }
+    ],
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['template', 'script', 'style']
+      }
+    ]
+  }
 }
