@@ -35,7 +35,3 @@ yarn add -D @denaro-config/vue3-types
 ```ts
 /// <reference types="@denaro-config/vue3-types/shims-vue" />
 ```
-
-## 结合 tsconfig 使用
-
-> 参考 [tsconfig](../vue3-typess/README.md)
