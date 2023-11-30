@@ -15,7 +15,7 @@ module.exports = {
     'standard-with-typescript'
   ],
 
-  ignorePatterns: ['.eslintrc.*', 'commitlint.config.*', ' cz.config.*'],
+  ignorePatterns: ['.eslintrc.*', 'commitlint.config.*', 'cz.config.*'],
 
   parserOptions: {
     sourceType: 'module',
