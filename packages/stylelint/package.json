@@ -1,0 +1,39 @@
+{
+  "name": "@denaro-config/stylelint",
+  "version": "1.1.1",
+  "description": "前端工程化中的 stylelint 通用配置, 用于规范 css 代码质量。",
+  "keywords": [
+    "denaro",
+    "config",
+    "stylelint",
+    "eslint",
+    "css",
+    "scss",
+    "sass",
+    "less"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "prettier": "^3.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
