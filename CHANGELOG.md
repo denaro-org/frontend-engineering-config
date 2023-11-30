@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.0...v1.2.1) (2023-11-30)
+
+### Bug Fixes
+
+- **check-file:** :bug: 修复引用 eslint-config-check-file 包报错 ([8f180c8](https://github.com/denaro-org/frontend-engineering-config/commit/8f180c80d3b4086be933e1abe7caab4f8694a010))
+- **eslint-prettier:** :bug: 修复引用 eslint-config-prettier 包报错 ([0972922](https://github.com/denaro-org/frontend-engineering-config/commit/0972922c0af45afa42b27baceb1de6793c3ed818))
+- **vue3:** :bug: 修复引用 eslint-config-vue3 包报错 ([79159f4](https://github.com/denaro-org/frontend-engineering-config/commit/79159f45bc134c87cd509b29d30cc06189153d97))
+
 # [1.2.0](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.1...v1.2.0) (2023-11-30)
 
 ### Bug Fixes
