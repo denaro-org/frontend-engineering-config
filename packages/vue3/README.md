@@ -15,7 +15,9 @@
 
 ## 参考官网地址
 
-> [eslint-plugin-vue](https://eslint.vuejs.org/)
+> - [eslint](https://eslint.org/)
+> - [eslint-plugin-vue](https://eslint.vuejs.org/)
+> - [Vue.js](https://v3.cn.vuejs.org/)
 
 ## 安装至您的项目
 

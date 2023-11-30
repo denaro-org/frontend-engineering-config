@@ -15,7 +15,8 @@
 
 ## 参考官网地址
 
-> [cz-git](https://cz-git.qbb.sh/zh/)
+> - [commitlint](https://commitlint.js.org/#/)
+> - [cz-git](https://cz-git.qbb.sh/zh/)
 
 ## 安装至您的项目
 
