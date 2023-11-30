@@ -15,7 +15,8 @@
 
 ## 参考官网地址
 
-> [eslint](https://eslint.org/) > [eslint-plugin-check-file](https://github.com/DukeLuo/eslint-plugin-check-file)
+> - [eslint](https://eslint.org/)
+> - [eslint-plugin-check-file](https://github.com/DukeLuo/eslint-plugin-check-file)
 
 ## 安装至您的项目
 
