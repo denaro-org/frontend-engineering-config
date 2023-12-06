@@ -21,7 +21,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "eslint-plugin-check-file": "^2.6.2"
   },
   "devDependencies": {
