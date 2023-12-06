@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/vue3-types",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "提供 vue3 项目的全局 d.ts 类型声明文件, 为你提供多种文件类型声明。",
   "keywords": [
     "denaro",

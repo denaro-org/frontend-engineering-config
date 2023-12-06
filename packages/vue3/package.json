@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-vue3",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "前端工程化中的 vue3 项目通用配置, 严格遵守 eslint-plugin-vue 官网推荐的风格规范。",
   "keywords": [
     "denaro",
