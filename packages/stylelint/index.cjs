@@ -4,7 +4,7 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/stylelintrc',
 
-  extends: ['stylelint-config-standard'],
+  extends: ['stylelint-config-standard', 'stylelint-config-standard-scss'],
 
   plugins: ['stylelint-order'],
 
