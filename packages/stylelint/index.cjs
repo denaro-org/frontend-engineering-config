@@ -4,9 +4,14 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/stylelintrc',
 
-  extends: ['stylelint-config-standard', 'stylelint-config-standard-scss'],
+  extends: [
+    'stylelint-prettier/recommended',
+    'stylelint-config-prettier',
+    'stylelint-config-standard',
+    'stylelint-config-standard-scss'
+  ],
 
-  plugins: ['stylelint-order'],
+  plugins: ['stylelint-order', 'stylelint-prettier'],
 
   rules: {
     'prettier/prettier': true,
