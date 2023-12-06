@@ -21,6 +21,8 @@ module.exports = {
     }
   ],
 
+  plugins: ['import'],
+
   rules: {
     // 缩进两个空格
     indent: ['error', 2, { SwitchCase: 1 }],
@@ -44,7 +46,7 @@ module.exports = {
         'newlines-between': 'always'
       }
     ],
-    'array-bracket-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
     // import 语句排序
     'sort-imports': [
