@@ -1,3 +1,15 @@
+## [1.2.3](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.2...v1.2.3) (2023-12-06)
+
+### Bug Fixes
+
+- **basic:** :bug: 更新 eslint-plugin-import 插件 ([f9585a3](https://github.com/denaro-org/frontend-engineering-config/commit/f9585a38f43171e9db61aac1b5b7981b9068ec68))
+- **stylelint:** :bug: stylelint 导入报错 ([fa7399e](https://github.com/denaro-org/frontend-engineering-config/commit/fa7399efe867435c929ec569f282f95eb94465ea))
+- **typescript:** :bug: 添加缺失依赖包 ([f373c36](https://github.com/denaro-org/frontend-engineering-config/commit/f373c36da119c8e0cc37fa68fd2391e74d25ef35))
+
+### Features
+
+- **stylelint:** :sparkles: 新增 sass、scss 的规范 ([3aa219f](https://github.com/denaro-org/frontend-engineering-config/commit/3aa219f1203a29495a3174fa0b6cbc1370e75737))
+
 ## [1.2.2](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.1...v1.2.2) (2023-11-30)
 
 ### Bug Fixes
