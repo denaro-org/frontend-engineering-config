@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-basic",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "前端工程化中的 eslint 通用配置, 提供较为基础的 rules 规则。",
   "keywords": [
     "denaro",
