@@ -13,7 +13,7 @@ module.exports = {
     node: true
   },
 
-  extends: ['prettier', 'plugin:prettier/recommended'],
+  extends: ['plugin:prettier/recommended'],
 
   plugins: ['prettier'],
 
