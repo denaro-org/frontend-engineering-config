@@ -22,10 +22,10 @@ module.exports = {
   },
 
   extends: [
+    '@denaro-config/eslint-config-prettier',
     'plugin:vue/base',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
-    '@vue/eslint-config-prettier/skip-formatting',
     'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
     'plugin:vue/vue3-strongly-recommended'
@@ -48,14 +48,14 @@ module.exports = {
         tabWidth: 2,
         comments: 80,
         ignorePattern: '',
-        ignoreComments: false,
-        ignoreTrailingComments: false,
-        ignoreUrls: false,
-        ignoreStrings: false,
-        ignoreTemplateLiterals: false,
-        ignoreRegExpLiterals: false,
-        ignoreHTMLAttributeValues: false,
-        ignoreHTMLTextContents: false
+        ignoreComments: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
+        ignoreHTMLAttributeValues: true,
+        ignoreHTMLTextContents: true
       }
     ],
     'vue/component-tags-order': [
