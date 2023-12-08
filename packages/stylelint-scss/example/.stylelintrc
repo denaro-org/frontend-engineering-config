@@ -1,0 +1,3 @@
+{
+  "extends": ["@denaro-config/stylelint-scss"]
+}
