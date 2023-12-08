@@ -44,10 +44,10 @@ yarn add -D @denaro-config/stylelint
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint . --write"
+    "stylelint": "stylelint \"./**/*.{css,scss,sass,vue,html}\" --fix"
   },
   "lint-staged": {
-    "**/*": "stylelint --write --ignore-unknown"
+    "*.{css,scss,sass,vue,html}": "stylelint --write --ignore-unknown"
   }
 }
 ```
