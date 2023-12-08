@@ -23,6 +23,7 @@ module.exports = {
 
   extends: [
     '@denaro-config/eslint-config-prettier',
+    'stylelint',
     'plugin:vue/base',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
