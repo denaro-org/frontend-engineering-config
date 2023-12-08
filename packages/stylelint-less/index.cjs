@@ -22,5 +22,9 @@ module.exports = {
     }
   ],
 
-  plugins: ['stylelint-less']
+  plugins: ['stylelint-less'],
+
+  rules: {
+    'font-family-no-missing-generic-family-keyword': null
+  }
 }
