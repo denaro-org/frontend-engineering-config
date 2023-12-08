@@ -1,3 +1,15 @@
+## [1.2.4](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.3...v1.2.4) (2023-12-08)
+
+### Bug Fixes
+
+- **basic:** :bug: 修改包依赖 ([3e74b18](https://github.com/denaro-org/frontend-engineering-config/commit/3e74b18bb7f5556a9074e00ae3cc03b1cc6e302a))
+- **vue3:** :bug: 更新 eslint-config-vue3 包对 eslint-config-prettier 包的引用 ([d0bb828](https://github.com/denaro-org/frontend-engineering-config/commit/d0bb8283fd350ec8d1a113404c8e585f4663114d))
+
+### Features
+
+- **stylelint:** :sparkles: 新增对 scss、sass 语法的支持 ([b326fbc](https://github.com/denaro-org/frontend-engineering-config/commit/b326fbcd4b7aa95a085e74880278dc81d3ba94b9))
+- **vue3:** :sparkles: 新增 stylelint 的规范 ([fa72929](https://github.com/denaro-org/frontend-engineering-config/commit/fa72929a40a6c87ca8d1dc199ce8bae888100472))
+
 ## [1.2.3](https://github.com/denaro-org/frontend-engineering-config/compare/v1.2.2...v1.2.3) (2023-12-06)
 
 ### Bug Fixes
