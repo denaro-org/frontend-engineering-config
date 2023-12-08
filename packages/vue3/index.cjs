@@ -39,7 +39,45 @@ module.exports = {
     'lib'
   ],
 
+  plugins: ['import'],
+
   rules: {
+    // import 语句之后强制空一行
+    'import/newline-after-import': ['error', { count: 1 }],
+    // import 语句排序
+    'import/order': [
+      'error',
+      {
+        alphabetize: { order: 'asc', caseInsensitive: true },
+        groups: [
+          'type',
+          ['builtin', 'external'],
+          'internal',
+          ['sibling', 'parent'],
+          'index',
+          'unknown'
+        ],
+        'newlines-between': 'always'
+      }
+    ],
+    'array-bracket-spacing': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
+    // 针对注释的空格限制
+    'spaced-comment': [
+      'error',
+      'always',
+      {
+        line: {
+          markers: ['/'],
+          exceptions: ['-', '+']
+        },
+        block: {
+          markers: ['!'],
+          exceptions: ['*'],
+          balanced: true
+        }
+      }
+    ],
     'vue/max-len': [
       'error',
       {
