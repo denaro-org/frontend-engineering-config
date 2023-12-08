@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     'stylelint-prettier/recommended',
     'stylelint-config-prettier',
+    'stylelint-config-recess-order',
     'stylelint-config-standard',
     'stylelint-config-standard-scss'
   ],
@@ -15,6 +16,10 @@ module.exports = {
 
   rules: {
     'prettier/prettier': true,
-    'order/properties-alphabetical-order': true
+    'order/properties-alphabetical-order': true,
+    'at-rule-no-unknown': [
+      true,
+      { ignoreAtRules: ['mixin', 'extend', 'content'] }
+    ]
   }
 }
