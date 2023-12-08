@@ -1,17 +1,17 @@
-# @denaro-config/stylelint
+# @denaro-config/stylelint-scss
 
-> :tada: 前端工程化中的 stylelint 通用配置, 用于规范 css 代码质量。
+> :tada: 前端工程化中的 stylelint 通用配置, 用于规范 sass、scss 代码质量。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/stylelint)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fstylelint)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/stylelint-scss)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Fstylelint-scss)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config)
 ![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config)
 ![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config)
 ![GitHub top language](https://img.shields.io/github/languages/top/denaro-org/frontend-engineering-config)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/stylelint)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fstylelint)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/stylelint-scss)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Fstylelint-scss)
 
 ## 参考官网地址
 
@@ -20,11 +20,11 @@
 ## 安装至您的项目
 
 ```bash
-npm install -D @denaro-config/stylelint
+npm install -D @denaro-config/stylelint-scss
 # or
-pnpm install -D @denaro-config/stylelint
+pnpm install -D @denaro-config/stylelint-scss
 # or
-yarn add -D @denaro-config/stylelint
+yarn add -D @denaro-config/stylelint-scss
 ```
 
 ## 使用
@@ -33,7 +33,7 @@ yarn add -D @denaro-config/stylelint
 
 ```js
 {
-  "extends": ["@denaro-config/stylelint"]
+  "extends": ["@denaro-config/stylelint-scss"]
 }
 ```
 
@@ -54,10 +54,10 @@ lib
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint \"./**/*.{css,vue,html}\" --fix"
+    "stylelint": "stylelint \"./**/*.{css,scss,sass,vue,html}\" --fix"
   },
   "lint-staged": {
-    "*.{css,vue,html}": "stylelint --write --ignore-unknown"
+    "*.{css,scss,sass,vue,html}": "stylelint --write --ignore-unknown"
   }
 }
 ```

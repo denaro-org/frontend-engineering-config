@@ -1,13 +1,15 @@
 {
-  "name": "@denaro-config/stylelint",
+  "name": "@denaro-config/stylelint-scss",
   "version": "1.2.4",
-  "description": "前端工程化中的 stylelint 通用配置, 用于规范 css 代码质量。",
+  "description": "前端工程化中的 stylelint 通用配置, 用于规范 sass、scss 代码质量。",
   "keywords": [
     "denaro",
     "config",
     "stylelint",
     "eslint",
-    "css"
+    "css",
+    "scss",
+    "sass"
   ],
   "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
   "bugs": {
@@ -21,18 +23,20 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
+    "@denaro-config/stylelint": "workspace:^",
+    "postcss": "^8.4.32",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.9",
     "prettier": "^3.1.0",
+    "sass": "^1.69.5",
     "stylelint": "^15.11.0",
-    "stylelint-config-css-modules": "^4.3.0",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-recess-order": "^4.4.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-vue": "^1.0.0",
-    "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^4.1.0"
+    "stylelint-config-recommended-scss": "^13.1.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-scss": "^5.3.1"
   },
   "peerDependencies": {
     "postcss": "^8.0.0",
+    "sass": "^1.69.0",
     "stylelint": "^15.0.0"
   },
   "publishConfig": {

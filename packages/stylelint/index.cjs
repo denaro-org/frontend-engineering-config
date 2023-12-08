@@ -5,29 +5,15 @@ module.exports = {
   $schema: 'https://json.schemastore.org/stylelintrc',
 
   extends: [
-    'stylelint-config-recommended-scss',
     'stylelint-config-standard-vue',
     'stylelint-prettier/recommended',
     'stylelint-config-prettier',
     'stylelint-config-recess-order',
     'stylelint-config-standard',
-    'stylelint-config-standard-scss',
     'stylelint-config-css-modules'
   ],
 
-  // 不同格式的文件指定自定义语法
-  overrides: [
-    {
-      files: ['**/*.(scss|css|vue|html)'],
-      customSyntax: 'postcss-scss'
-    },
-    {
-      files: ['**/*.(html|vue)'],
-      customSyntax: 'postcss-html'
-    }
-  ],
-
-  plugins: ['stylelint-scss', 'stylelint-order', 'stylelint-prettier'],
+  plugins: ['stylelint-order', 'stylelint-prettier'],
 
   ignoreFiles: [
     '**/node_modules/**',
@@ -44,8 +30,6 @@ module.exports = {
 
   rules: {
     'font-family-no-missing-generic-family-keyword': null,
-    'string-quotes': 'single',
-    // 禁止在具有较高优先级的选择器后出现被其覆盖的较低优先级的选择器
     'no-descending-specificity': null,
     'selector-pseudo-element-no-unknown': [
       true,
