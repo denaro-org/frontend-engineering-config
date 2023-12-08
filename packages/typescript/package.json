@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-typescript",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 typescript 项目。",
   "keywords": [
     "denaro",
