@@ -22,14 +22,13 @@ module.exports = {
   },
 
   extends: [
-    '@denaro-config/eslint-config-prettier',
-    'stylelint',
     'plugin:vue/base',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
-    'plugin:vue/vue3-strongly-recommended'
+    'plugin:vue/vue3-strongly-recommended',
+    '@denaro-config/eslint-config-prettier'
   ],
 
   ignorePatterns: [
