@@ -21,17 +21,17 @@
   "main": "index.cjs",
   "dependencies": {
     "@denaro-config/eslint-config-basic": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.55.0",
     "eslint-config-standard-with-typescript": "^40.0.0",
     "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-typescript-sort-keys": "^3.1.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.8"
+    "@types/eslint": "^8.44.9"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
