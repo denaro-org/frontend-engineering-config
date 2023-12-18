@@ -1,3 +1,15 @@
+## [1.3.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.0...v1.3.1) (2023-12-18)
+
+### Bug Fixes
+
+- **vue3:** :bug: 补充 eslint-plugin-import 的依赖包 ([748dd99](https://github.com/denaro-org/frontend-engineering-config/commit/748dd99fe19385037bfdeaf8eea1321775f4ad15))
+
+### Features
+
+- **stylelint-less:** :sparkles: 取消 font-family 的检查 ([0beab5e](https://github.com/denaro-org/frontend-engineering-config/commit/0beab5e717611b4ce6b25498507d36a3c1c43ae1))
+- **stylelint-scss:** :sparkles: 取消 font-family 的检查 ([ad1c54b](https://github.com/denaro-org/frontend-engineering-config/commit/ad1c54b1f1d3df733ddc87ec4f01371d28b0e280))
+- **vue3:** :sparkles: 更新 vue3 的 rules ([da9744e](https://github.com/denaro-org/frontend-engineering-config/commit/da9744ea27d35eeecc56cdc7772bd069eb257459))
+
 ## [1.3.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.0...v1.3.1) (2023-12-14)
 
 ### Bug Fixes
