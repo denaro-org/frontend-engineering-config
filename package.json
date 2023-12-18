@@ -27,7 +27,7 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "pnpm update -r --workspace",
+    "bootstrap": "pnpm update --latest -r",
     "commit": "git add .&& cz",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix .",
