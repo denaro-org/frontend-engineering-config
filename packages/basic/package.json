@@ -20,8 +20,8 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "eslint": "^8.55.0",
-    "eslint-plugin-import": "^2.29.0"
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.9"
