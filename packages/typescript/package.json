@@ -34,8 +34,8 @@
     "@types/eslint": "^8.44.9"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0",
-    "typescript": "^5.2.2"
+    "eslint": ">=8.0.0",
+    "typescript": ">=5.2.2"
   },
   "publishConfig": {
     "access": "public"
