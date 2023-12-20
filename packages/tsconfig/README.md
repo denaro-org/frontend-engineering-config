@@ -35,7 +35,7 @@ yarn add -D @denaro-config/tsconfig
 
 ```json
 {
-  "extends": "@tsconfig/eslint-config/tsconfig.json"
+  "extends": "@denaro-config/tsconfig/tsconfig.json"
 }
 ```
 
@@ -43,7 +43,7 @@ yarn add -D @denaro-config/tsconfig
 
 ```json
 {
-  "extends": "@tsconfig/eslint-config/tsconfig.esnext.json"
+  "extends": "@denaro-config/tsconfig/tsconfig.esnext.json"
 }
 ```
 
@@ -51,7 +51,7 @@ yarn add -D @denaro-config/tsconfig
 
 ```json
 {
-  "extends": "@tsconfig/eslint-config/tsconfig.vue3.json"
+  "extends": "@denaro-config/tsconfig/tsconfig.vue3.json"
 }
 ```
 
