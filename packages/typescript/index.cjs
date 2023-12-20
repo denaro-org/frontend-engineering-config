@@ -12,7 +12,8 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:typescript-sort-keys/recommended',
-    'standard-with-typescript'
+    'standard-with-typescript',
+    '@denaro-config/eslint-config-prettier'
   ],
 
   ignorePatterns: ['.eslintrc.*', 'commitlint.config.*', 'cz.config.*'],

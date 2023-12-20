@@ -24,7 +24,7 @@
     "eslint-plugin-import": "^2.29.1"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.9"
+    "@types/eslint": "^8.56.0"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
