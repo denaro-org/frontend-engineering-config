@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-javascript",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 javascript 项目。",
   "keywords": [
     "denaro",
