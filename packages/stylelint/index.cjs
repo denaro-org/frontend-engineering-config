@@ -9,7 +9,8 @@ module.exports = {
     'stylelint-prettier/recommended',
     'stylelint-config-prettier',
     'stylelint-config-recess-order',
-    'stylelint-config-standard'
+    'stylelint-config-standard',
+    'stylelint-config-tailwindcss'
   ],
 
   plugins: ['stylelint-order', 'stylelint-prettier'],
