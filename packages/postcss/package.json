@@ -1,0 +1,33 @@
+{
+  "name": "@denaro-config/postcss",
+  "version": "1.3.2",
+  "description": "提供 autoprefixer 主流浏览器的样式前缀配置。",
+  "keywords": [
+    "denaro",
+    "config",
+    "autoprefixer",
+    "postcss"
+  ],
+  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+  "bugs": {
+    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+  },
+  "license": "MIT",
+  "author": "vxhly <pengchengou@gmail.com>",
+  "main": "index.cjs",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33"
+  },
+  "peerDependencies": {
+    "autoprefixer": ">10.0.0",
+    "postcss": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
