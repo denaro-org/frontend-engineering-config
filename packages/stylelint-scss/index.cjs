@@ -7,7 +7,8 @@ module.exports = {
   extends: [
     '@denaro-config/stylelint',
     'stylelint-config-recommended-scss',
-    'stylelint-config-standard-scss'
+    'stylelint-config-standard-scss',
+    'stylelint-config-tailwindcss/scss'
   ],
 
   // 不同格式的文件指定自定义语法
