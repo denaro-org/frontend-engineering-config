@@ -1,3 +1,18 @@
+# [1.4.0](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.2...v1.4.0) (2024-01-09)
+
+### Bug Fixes
+
+- **check-file:** :bug: 去除不合适的配置 ([21dcf6b](https://github.com/denaro-org/frontend-engineering-config/commit/21dcf6b8bbd68f6ee6adc46255646d9950bf6f6d))
+- **tsconfig:** :bug: 去除不合适的配置 ([90303c8](https://github.com/denaro-org/frontend-engineering-config/commit/90303c8f7f323d98c03b30dede654b6186ffdc02))
+
+### Features
+
+- **eslint-tailwindcss:** :sparkles: 新增针对 tailwindcss 的 eslint 代码规范配置包 ([a10ea23](https://github.com/denaro-org/frontend-engineering-config/commit/a10ea23f857b44226e16dda7bb1260008669e476))
+- **postcss:** :sparkles: 新增 autoprefixer 主流浏览器的样式前缀配置包 ([267a5c1](https://github.com/denaro-org/frontend-engineering-config/commit/267a5c1ccfaa5ba4b7524f2761ffdd94f2217659))
+- **stylelint-scss:** :sparkles: 更新 stylelint-scss 对tailwindcss 的支持 ([7fe5f40](https://github.com/denaro-org/frontend-engineering-config/commit/7fe5f4018ddb563bc7721feb605e374844929f40))
+- **stylelint:** :sparkles: 更新 stylelint 对tailwindcss 的支持 ([c2b9328](https://github.com/denaro-org/frontend-engineering-config/commit/c2b9328fbc954dee5d1b665dd6d25316145708bd))
+- **typescript:** :sparkles: 更新eslint-config-typescript依赖eslint-config-prettier ([659b7cb](https://github.com/denaro-org/frontend-engineering-config/commit/659b7cb6c528a1af7bbb49f5a3da6a1a49ab5d1c))
+
 ## [1.3.2](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.1...v1.3.2) (2023-12-18)
 
 ## [1.3.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.0...v1.3.1) (2023-12-18)
