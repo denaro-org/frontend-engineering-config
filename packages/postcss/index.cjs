@@ -3,6 +3,10 @@
 
 module.exports = {
   plugins: {
+    tailwindcss: {},
+    cssnano: {
+      preset: 'default'
+    },
     autoprefixer: {
       overrideBrowserslist: [
         'Chrome > 31',
