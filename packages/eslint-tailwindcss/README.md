@@ -1,17 +1,17 @@
-# @denaro-config/tailwindcss
+# @denaro-config/eslint-config-tailwindcss
 
 > :tada: 针对 tailwindcss 的 eslint 代码规范配置。
 
-![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/tailwindcss)
-![NPM](https://img.shields.io/npm/l/%40denaro-config%2Ftailwindcss)
+![npm (scoped)](https://img.shields.io/npm/v/%40denaro-config/eslint-config-tailwindcss)
+![NPM](https://img.shields.io/npm/l/%40denaro-config%2Feslint-config-tailwindcss)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/denaro-org/frontend-engineering-config)
 ![GitHub Repo stars](https://img.shields.io/github/stars/denaro-org/frontend-engineering-config)
 ![GitHub issues](https://img.shields.io/github/issues/denaro-org/frontend-engineering-config)
 ![GitHub top language](https://img.shields.io/github/languages/top/denaro-org/frontend-engineering-config)
 
-![npm](https://img.shields.io/npm/dw/%40denaro-config/tailwindcss)
-![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Ftailwindcss)
+![npm](https://img.shields.io/npm/dw/%40denaro-config/eslint-config-tailwindcss)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hd/%40denaro-config%2Feslint-config-tailwindcss)
 
 ## 参考官网地址
 
@@ -20,11 +20,11 @@
 ## 安装至您的项目
 
 ```bash
-npm install -D @denaro-config/tailwindcss
+npm install -D @denaro-config/eslint-config-tailwindcss
 # or
-pnpm install -D @denaro-config/tailwindcss
+pnpm install -D @denaro-config/eslint-config-tailwindcss
 # or
-yarn add -D @denaro-config/tailwindcss
+yarn add -D @denaro-config/eslint-config-tailwindcss
 ```
 
 ## 使用
@@ -43,14 +43,4 @@ module.exports = {
 module.exports = {
   extends: ['@denaro-config/tailwindcss']
 }
-```
-
-## 忽略检查
-
-在项目根目录下创建 `.tailwindcssignore` 文件, 参考配置内容如下：
-
-```text
-node_modules
-dist
-lib
 ```

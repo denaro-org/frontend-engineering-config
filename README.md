@@ -14,6 +14,7 @@
 - [eslint-config-basic](./packages/basic/README.md)
 - [eslint-config-check-file](./packages/check-file/README.md)
 - [eslint-config-prettier](./packages/eslint-prettier/README.md)
+- [eslint-config-tailwindcss](./packages/eslint-tailwindcss/README.md)
 - [eslint-config-javascript](./packages/javascript/README.md)
 - [prettier](./packages/prettier/README.md)
 - [stylelint](./packages/stylelint/README.md)
@@ -24,6 +25,7 @@
 
 ### 1.3. 工程化配置整合类包
 
+- [postcss](./packages/postcss/README.md)
 - [tsconfig](./packages/tsconfig/README.md)
 - [vue3-types](./packages/vue3-types/README.md)
 
