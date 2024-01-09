@@ -23,7 +23,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "@denaro-config/eslint-config-prettier": "workspace:*",
+    "@denaro-config/eslint-config-prettier": "workspace:^",
     "@vue/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.56.0",
     "eslint-config-stylelint": "^20.0.0",
