@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.0...v1.4.1) (2024-01-09)
+
+### Bug Fixes
+
+- **vue3:** :bug: 修复错误的依赖 ([76ef6b8](https://github.com/denaro-org/frontend-engineering-config/commit/76ef6b8aa1a458bcea4f116a3ec2dbe826e3ee70))
+
 # [1.4.0](https://github.com/denaro-org/frontend-engineering-config/compare/v1.3.2...v1.4.0) (2024-01-09)
 
 ### Bug Fixes
