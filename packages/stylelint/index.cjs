@@ -30,6 +30,7 @@ module.exports = {
 
   rules: {
     'font-family-no-missing-generic-family-keyword': null,
+    'declaration-block-trailing-semicolon': null,
     'no-descending-specificity': null,
     'selector-pseudo-element-no-unknown': [
       true,
@@ -51,6 +52,13 @@ module.exports = {
       true,
       {
         ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'layer',
+          'config',
+          'variants',
+          'responsive',
+          'screen',
           'function',
           'if',
           'else',
