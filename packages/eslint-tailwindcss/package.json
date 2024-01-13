@@ -23,11 +23,11 @@
   "dependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-tailwindcss": "^3.13.1",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.1",
     "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.1"
+    "@types/eslint": "^8.56.2"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"

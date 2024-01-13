@@ -20,7 +20,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "prettier": "^3.1.1"
+    "prettier": "^3.2.1"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"

@@ -32,7 +32,7 @@
     "eslint-plugin-typescript-sort-keys": "^3.1.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.1"
+    "@types/eslint": "^8.56.2"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
