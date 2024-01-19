@@ -27,7 +27,7 @@
     "postcss": "^8.4.33",
     "postcss-html": "^1.6.0",
     "postcss-less": "^6.0.0",
-    "prettier": "^3.2.1",
+    "prettier": "^3.2.4",
     "stylelint": "^16.1.0",
     "stylelint-config-recommended-less": "^3.0.1",
     "stylelint-config-standard-less": "^3.0.1",

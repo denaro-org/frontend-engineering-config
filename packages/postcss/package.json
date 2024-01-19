@@ -20,7 +20,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "cssnano": "^6.0.3",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1"
