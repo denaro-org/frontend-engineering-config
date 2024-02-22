@@ -24,16 +24,16 @@
   "main": "index.cjs",
   "dependencies": {
     "@denaro-config/stylelint": "workspace:^",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "postcss-html": "^1.6.0",
     "postcss-scss": "^4.0.9",
-    "prettier": "^3.2.4",
-    "sass": "^1.70.0",
-    "stylelint": "^16.1.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.71.1",
+    "stylelint": "^16.2.1",
     "stylelint-config-recommended-scss": "^14.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-config-tailwindcss": "^0.0.7",
-    "stylelint-scss": "^6.0.0"
+    "stylelint-scss": "^6.1.0"
   },
   "peerDependencies": {
     "postcss": ">=8.0.0",
