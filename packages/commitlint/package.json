@@ -19,7 +19,7 @@
   "author": "vxhly <pengchengou@gmail.com>",
   "main": "index.cjs",
   "dependencies": {
-    "@commitlint/cli": "^18.6.1",
+    "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^18.6.2"
   },
   "devDependencies": {
