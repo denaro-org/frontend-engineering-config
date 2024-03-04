@@ -24,7 +24,7 @@
   "main": "index.cjs",
   "dependencies": {
     "commitizen": "^4.3.0",
-    "cz-git": "^1.8.0"
+    "cz-git": "^1.9.0"
   },
   "peerDependencies": {
     "commitizen": ">=4.0.0",

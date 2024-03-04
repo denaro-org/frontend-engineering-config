@@ -28,7 +28,7 @@
     "eslint-plugin-promise": "^6.1.1"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.3"
+    "@types/eslint": "^8.56.5"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
