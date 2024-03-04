@@ -101,6 +101,20 @@ module.exports = {
       {
         order: ['template', 'script', 'style']
       }
+    ],
+    'vue/html-self-closing': [
+      'error',
+      {
+        // 没有子元素，自动使用闭合单标签
+        html: {
+          void: 'never',
+          normal: 'always',
+          component: 'always'
+        },
+        svg: 'always',
+        math: 'always',
+        img: 'always'
+      }
     ]
   }
 }
