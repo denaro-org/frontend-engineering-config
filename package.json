@@ -57,7 +57,7 @@
     "@denaro-config/eslint-config-javascript": "workspace:^",
     "@denaro-config/eslint-config-prettier": "workspace:^",
     "@denaro-config/prettier": "workspace:^",
-    "bumpp": "^9.3.1",
+    "bumpp": "^9.4.0",
     "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
