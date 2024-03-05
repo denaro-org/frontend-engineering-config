@@ -1,3 +1,55 @@
+## [1.4.2](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.1...v1.4.2) (2024-03-05)
+
+### Bug Fixes
+
+- **basic:** :bug: 更新 eslint-plugin-import 插件 ([4dd39de](https://github.com/denaro-org/frontend-engineering-config/commit/4dd39de5482be049ad4aef2a73f54c419d23cf2e))
+- **basic:** :bug: 修改包依赖 ([d4e0a29](https://github.com/denaro-org/frontend-engineering-config/commit/d4e0a29d68c6bbdc37d7c530945d7388df9b9e5d))
+- **check-file:** :bug: 去除不合适的配置 ([635c936](https://github.com/denaro-org/frontend-engineering-config/commit/635c93639a8c4049f794b497ec21a84c9429aa0a))
+- **check-file:** :bug: 修复引用 eslint-config-check-file 包报错 ([f2e489a](https://github.com/denaro-org/frontend-engineering-config/commit/f2e489a180dbec528e7a4ccd0afa551be320fce9))
+- **eslint-prettier:** :bug: 修复引用 eslint-config-prettier 包报错 ([5b6f52d](https://github.com/denaro-org/frontend-engineering-config/commit/5b6f52d00669044bdfa4abb3fe00806237421549))
+- **stylelint:** :bug: 修改或去除 stylelint 包 中不合适的配置 ([9b2a9b9](https://github.com/denaro-org/frontend-engineering-config/commit/9b2a9b9ddde5fc5af57eed0042fe3cc6197e9bb0))
+- **stylelint:** :bug: stylelint 导入报错 ([65998bc](https://github.com/denaro-org/frontend-engineering-config/commit/65998bc8b9865e4b347e6f4b307255b0d2d024cd))
+- **tsconfig:** :bug: 去除不合适的配置 ([e9052a6](https://github.com/denaro-org/frontend-engineering-config/commit/e9052a6a389b93b22088d79998bcc7d75bcd8fc0))
+- **tsconfig:** :bug: 去除不合适的配置项 ([9ea1a0b](https://github.com/denaro-org/frontend-engineering-config/commit/9ea1a0bd7810857327f596188aeb881460fddd60))
+- **typescript:** :bug: 添加缺失依赖包 ([be5d246](https://github.com/denaro-org/frontend-engineering-config/commit/be5d24697fb5486f8bd02c66e8fd1b9a030edf45))
+- **vue3:** :bug: 补充 eslint-plugin-import 的依赖包 ([3e43ab9](https://github.com/denaro-org/frontend-engineering-config/commit/3e43ab968d3048fe1d1d95775e971451b4acc51e))
+- **vue3:** :bug: 补充缺失的依赖包 ([2caeeba](https://github.com/denaro-org/frontend-engineering-config/commit/2caeebac52f3bee78fb5344f106d14263cde275b))
+- **vue3:** :bug: 更新 eslint-config-vue3 包对 eslint-config-prettier 包的引用 ([5452153](https://github.com/denaro-org/frontend-engineering-config/commit/5452153a4ce6cd41ec41bceb7b0ea25b23ef3d06))
+- **vue3:** :bug: 修复 stylelint、prettier 的冲突 ([b973ba4](https://github.com/denaro-org/frontend-engineering-config/commit/b973ba49bb1d249bc3330007e440e2bdf1b2c75e))
+- **vue3:** :bug: 修复错误的依赖 ([a44bac8](https://github.com/denaro-org/frontend-engineering-config/commit/a44bac8478dac0c4b8e5d636b5093d567da48f01))
+- **vue3:** :bug: 修复引用 eslint-config-vue3 包报错 ([cfef91d](https://github.com/denaro-org/frontend-engineering-config/commit/cfef91d76e8f2746fd5917d0cca63d92474e9868))
+
+### Features
+
+- **check-file:** :sparkles: 前端工程化中的 eslint 通用配置 ([d391009](https://github.com/denaro-org/frontend-engineering-config/commit/d391009d37b160b85b2ae027952804946d2608f3))
+- **eslint-tailwindcss:** :sparkles: 新增针对 tailwindcss 的 eslint 代码规范配置包 ([ec0dfdc](https://github.com/denaro-org/frontend-engineering-config/commit/ec0dfdc6a12e1652bf7a9f0156827d357bb7fedc))
+- **postcss:** :sparkles: 新增 autoprefixer 主流浏览器的样式前缀配置包 ([b00c76d](https://github.com/denaro-org/frontend-engineering-config/commit/b00c76d4d736811d9767c3ccabe3fc48767d891c))
+- **postcss:** :sparkles: 新增 postcss 针对 tailwindcss、cssnano 的支持 ([6ab08c0](https://github.com/denaro-org/frontend-engineering-config/commit/6ab08c0b487c558ff47e7dcbfb466d5d390c561b))
+- **stylelint-less:** :sparkles: 取消 font-family 的检查 ([edd5d78](https://github.com/denaro-org/frontend-engineering-config/commit/edd5d78c511c85eb718bad075539810caef17935))
+- **stylelint-less:** :sparkles: 新增 前端工程化中的 stylelint 通用配置 ([de3da56](https://github.com/denaro-org/frontend-engineering-config/commit/de3da568c9b0cc4f1b87e8c8257cfa52295161a8))
+- **stylelint-scss:** :sparkles: 更新 stylelint-scss 对tailwindcss 的支持 ([c58a53c](https://github.com/denaro-org/frontend-engineering-config/commit/c58a53c890e33b13ccd1cf1208e845261bf76896))
+- **stylelint-scss:** :sparkles: 取消 font-family 的检查 ([f92587e](https://github.com/denaro-org/frontend-engineering-config/commit/f92587e4a26d19bb4946130ceac45f75f8118328))
+- **stylelint-scss:** :sparkles: 新增 前端工程化中的 stylelint 通用配置 ([f761a3f](https://github.com/denaro-org/frontend-engineering-config/commit/f761a3f4f3a52f01d103046b9d3574e39bb102b7))
+- **stylelint:** :sparkles: 更新 stylelint 对 scss、sass 语法的支持 ([49c64d9](https://github.com/denaro-org/frontend-engineering-config/commit/49c64d95f4f350a0932b9295bddb9024bd8cd8b3))
+- **stylelint:** :sparkles: 更新 stylelint 对tailwindcss 的支持 ([2d7e50f](https://github.com/denaro-org/frontend-engineering-config/commit/2d7e50ff476ce2278dd46d036a78eebbed4e918b))
+- **stylelint:** :sparkles: 更新 stylelint 规则 ([19e362f](https://github.com/denaro-org/frontend-engineering-config/commit/19e362f22973ab169336bdc099cb8a6b7557d176))
+- **stylelint:** :sparkles: 前端工程化中的 stylelint 通用配置 ([084e91c](https://github.com/denaro-org/frontend-engineering-config/commit/084e91caa114b587e8b0e67e5e4216480d6f1070))
+- **stylelint:** :sparkles: 新增 sass、scss 的规范 ([28dd681](https://github.com/denaro-org/frontend-engineering-config/commit/28dd6811d5d401e8de3e2f15cfca76d00a17c38b))
+- **stylelint:** :sparkles: 新增对 scss、sass 语法的支持 ([70db360](https://github.com/denaro-org/frontend-engineering-config/commit/70db36001c4a2e01963762296b34dc4c3714e98f))
+- **tsconfig:** :sparkles: 更新 tsconfig 配置 ([78af185](https://github.com/denaro-org/frontend-engineering-config/commit/78af18526e449a2498feaa8fed65cfef47097ce2))
+- **typescript:** :sparkles: 更新eslint-config-typescript依赖eslint-config-prettier ([3f07772](https://github.com/denaro-org/frontend-engineering-config/commit/3f0777287889669c9af77c71a30046d7d6c14556))
+- **vue3-types:** :sparkles: 拓展 shims-vue.d.ts, 提供更多的文件类型声明 ([8da1ffc](https://github.com/denaro-org/frontend-engineering-config/commit/8da1ffc0bb313381952fe450655aba38dd2c9d17))
+- **vue3:** :sparkles: 补充 vue3 代码整理 rules 规则 ([08c9b8e](https://github.com/denaro-org/frontend-engineering-config/commit/08c9b8e8f04388bd646459391114d8d45b621aa9))
+- **vue3:** :sparkles: 更高检测 vue3 文件中的自闭合标签 eslint 配置 ([49d2c2d](https://github.com/denaro-org/frontend-engineering-config/commit/49d2c2df8bf7810ac3e607f3475f5640c7247e68))
+- **vue3:** :sparkles: 更新 vue3 的 rules ([ff09bb3](https://github.com/denaro-org/frontend-engineering-config/commit/ff09bb39de461430e74b4e0c6ec5a5c986d24d67))
+- **vue3:** :sparkles: 新增 stylelint 的规范 ([f0e0344](https://github.com/denaro-org/frontend-engineering-config/commit/f0e0344b243702baaf85bf84b3cb8ecafd33b3c6))
+
+### Performance Improvements
+
+- :zap: 更新依赖包版本 ([712a13c](https://github.com/denaro-org/frontend-engineering-config/commit/712a13c84d907e60fce90792b28f2921371e038b))
+- :zap: 更新依赖包版本号 ([a3c1ebc](https://github.com/denaro-org/frontend-engineering-config/commit/a3c1ebc2d9582fe8fd61c47ae0a19d2dc0e185a9))
+- :zap: 更新依赖包版本号 ([a22a878](https://github.com/denaro-org/frontend-engineering-config/commit/a22a8787df52527fc2ac699b91a068eedeb35948))
+
 ## [1.4.1](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.0...v1.4.1) (2024-01-09)
 
 ### Bug Fixes
