@@ -21,8 +21,8 @@
   "main": "index.cjs",
   "dependencies": {
     "autoprefixer": "^10.4.18",
-    "cssnano": "^6.0.5",
-    "postcss": "^8.4.35",
+    "cssnano": "^6.1.0",
+    "postcss": "^8.4.37",
     "tailwindcss": "^3.4.1"
   },
   "peerDependencies": {

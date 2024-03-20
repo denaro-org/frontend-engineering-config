@@ -22,7 +22,7 @@
   "dependencies": {
     "@tsconfig/node18": "^18.2.2",
     "@vue/tsconfig": "^0.5.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "peerDependencies": {
     "typescript": ">=5.2.2"
