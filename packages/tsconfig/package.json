@@ -20,12 +20,12 @@
   "license": "MIT",
   "author": "vxhly <pengchengou@gmail.com>",
   "dependencies": {
-    "@tsconfig/node18": "^18.2.2",
+    "@tsconfig/node18": "^18.2.4",
     "@vue/tsconfig": "^0.5.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "typescript": ">=5.2.2"
+    "typescript": "^5"
   },
   "publishConfig": {
     "access": "public"

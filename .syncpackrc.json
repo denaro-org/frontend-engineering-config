@@ -1,0 +1,41 @@
+{
+  "source": ["./package.json", "**/package.json"],
+  "versionGroups": [
+    {
+      "dependencies": ["eslint"],
+      "dependencyTypes": ["!peer"],
+      "packages": ["**"],
+      "pinVersion": "8.57.0"
+    },
+    {
+      "dependencies": ["eslint"],
+      "dependencyTypes": ["peer"],
+      "packages": ["**"],
+      "pinVersion": "^8"
+    },
+    {
+      "dependencies": ["typescript"],
+      "dependencyTypes": ["peer"],
+      "packages": ["**"],
+      "pinVersion": "^5"
+    },
+    {
+      "dependencies": ["eslint-plugin-n"],
+      "dependencyTypes": ["prod"],
+      "packages": ["**"],
+      "pinVersion": "16.6.2"
+    },
+    {
+      "dependencies": ["@denaro-config/*"],
+      "dependencyTypes": ["prod", "dev"],
+      "packages": ["**"],
+      "pinVersion": "workspace:^"
+    },
+    {
+      "dependencies": ["@typescript-eslint/*"],
+      "dependencyTypes": ["prod", "dev"],
+      "packages": ["**"],
+      "pinVersion": "^6.21.0"
+    }
+  ]
+}
