@@ -23,7 +23,7 @@
     "@denaro-config/eslint-config-basic": "workspace:^",
     "@denaro-config/eslint-config-prettier": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint": "8.57.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-import": "^2.29.1",
