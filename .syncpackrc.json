@@ -20,6 +20,18 @@
       "pinVersion": "^5"
     },
     {
+      "dependencies": ["vue"],
+      "dependencyTypes": ["peer"],
+      "packages": ["**"],
+      "pinVersion": "^3"
+    },
+    {
+      "dependencies": ["@commitlint/*"],
+      "dependencyTypes": ["peer"],
+      "packages": ["**"],
+      "pinVersion": "^19"
+    },
+    {
       "dependencies": ["eslint-plugin-n"],
       "dependencyTypes": ["prod"],
       "packages": ["**"],
