@@ -22,10 +22,10 @@
   "main": "index.cjs",
   "dependencies": {
     "eslint": "8.57.0",
-    "eslint-plugin-check-file": "^2.7.1"
+    "eslint-plugin-check-file": "^2.8.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.7"
+    "@types/eslint": "^8.56.9"
   },
   "peerDependencies": {
     "eslint": "^8"
