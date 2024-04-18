@@ -1,119 +1,26 @@
-/** @type {import('eslint').Linter.BaseConfig} */
+/** @type {import('prettier').Config} */
 // @ts-check
 
 module.exports = {
-  $schema: 'https://json.schemastore.org/eslintrc.json',
+  $schema: 'https://json.schemastore.org/prettierrc',
 
-  root: true,
-
-  env: {
-    browser: true,
-    es6: true,
-    es2021: true,
-    node: true
-  },
-
-  globals: {
-    defineEmits: 'readonly',
-    defineProps: 'readonly',
-    defineOptions: 'readonly',
-    withDefaults: 'readonly',
-    defineExpose: 'readonly'
-  },
-
-  extends: [
-    'plugin:vue/base',
-    'eslint:recommended',
-    '@vue/eslint-config-typescript',
-    'plugin:vue/vue3-essential',
-    'plugin:vue/vue3-recommended',
-    'plugin:vue/vue3-strongly-recommended',
-    '@denaro-config/eslint-config-prettier'
-  ],
-
-  ignorePatterns: [
-    'dist',
-    'node_modules',
-    'coverage',
-    'packages/*/dist',
-    'lib'
-  ],
-
-  plugins: ['import'],
-
-  rules: {
-    // import 语句之后强制空一行
-    'import/newline-after-import': ['error', { count: 1 }],
-    // import 语句排序
-    'import/order': [
-      'error',
-      {
-        alphabetize: { order: 'asc', caseInsensitive: true },
-        groups: [
-          'type',
-          ['builtin', 'external'],
-          'internal',
-          ['sibling', 'parent'],
-          'index',
-          'unknown'
-        ],
-        'newlines-between': 'always'
-      }
-    ],
-    'array-bracket-spacing': ['error', 'never'],
-    'object-curly-spacing': ['error', 'always'],
-    // 针对注释的空格限制
-    'spaced-comment': [
-      'error',
-      'always',
-      {
-        line: {
-          markers: ['/'],
-          exceptions: ['-', '+']
-        },
-        block: {
-          markers: ['!'],
-          exceptions: ['*'],
-          balanced: true
-        }
-      }
-    ],
-    'vue/max-len': [
-      'error',
-      {
-        code: 80,
-        template: 80,
-        tabWidth: 2,
-        comments: 80,
-        ignorePattern: '',
-        ignoreComments: true,
-        ignoreTrailingComments: true,
-        ignoreUrls: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-        ignoreHTMLAttributeValues: true,
-        ignoreHTMLTextContents: true
-      }
-    ],
-    'vue/component-tags-order': [
-      'error',
-      {
-        order: ['template', 'script', 'style']
-      }
-    ],
-    'vue/html-self-closing': [
-      'error',
-      {
-        // 没有子元素，自动使用闭合单标签
-        html: {
-          void: 'never',
-          normal: 'never',
-          component: 'always'
-        },
-        svg: 'always',
-        math: 'always'
-      }
-    ]
-  }
+  printWidth: 80, // 单行长度
+  tabWidth: 2, // 缩进长度
+  useTabs: false, // 使用空格代替tab缩进
+  semi: false, // 句末使用分号
+  singleQuote: true, // 使用单引号
+  quoteProps: 'as-needed', // 仅在必需时为对象的key添加引号
+  jsxSingleQuote: true, // jsx中使用单引号
+  jsxBracketSameLine: false, // jsx中的>换行
+  trailingComma: 'none', // 对象多行时尽可能打印尾随逗号
+  bracketSpacing: true, // 在对象前后添加空格-eg: { foo: bar }
+  bracketSameLine: true, // 对象的‘{’折行放置
+  arrowParens: 'avoid', // always/avoid 单参数箭头函数参数周围使用圆括号-eg: (x) => x
+  requirePragma: false, // 无需顶部注释即可格式化
+  insertPragma: false, // 在已被 preitter 格式化的文件顶部加上标注
+  proseWrap: 'preserve', // 不知道怎么翻译
+  htmlWhitespaceSensitivity: 'ignore', // 对HTML全局空白不敏感
+  vueIndentScriptAndStyle: false, // 不对vue中的script及style标签缩进
+  endOfLine: 'lf', // 结束行形式
+  embeddedLanguageFormatting: 'auto' // 对引用代码进行格式化
 }

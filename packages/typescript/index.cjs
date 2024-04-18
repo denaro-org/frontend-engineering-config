@@ -12,7 +12,7 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:typescript-sort-keys/recommended',
-    'standard-with-typescript',
+    'love',
     '@denaro-config/eslint-config-prettier'
   ],
 
