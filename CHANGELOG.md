@@ -1,3 +1,9 @@
+## [1.4.5](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.4...v1.4.5) (2024-04-18)
+
+### Bug Fixes
+
+- **stylelint:** :bug: 删除错误的配置 ([02dbc1f](https://github.com/denaro-org/frontend-engineering-config/commit/02dbc1f8e947edb9914ae3aadb25e8d3d8022adc))
+
 ## [1.4.4](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.3...v1.4.4) (2024-04-18)
 
 ### Bug Fixes
