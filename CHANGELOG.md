@@ -1,3 +1,9 @@
+## [1.4.4](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.3...v1.4.4) (2024-04-18)
+
+### Bug Fixes
+
+- **typescript:** :bug: eslint-config-standard-with-typescript => eslint-config-love ([04b1aac](https://github.com/denaro-org/frontend-engineering-config/commit/04b1aac91d00e0eb24c167112c2afffb10ca7cfa))
+
 ## [1.4.3](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.2...v1.4.3) (2024-04-11)
 
 ## [1.4.2](https://github.com/denaro-org/frontend-engineering-config/compare/v1.1.1...v1.4.2) (2024-03-05)
