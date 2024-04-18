@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     'stylelint-config-standard-vue',
     'stylelint-prettier/recommended',
-    'stylelint-config-prettier',
     'stylelint-config-recess-order',
     'stylelint-config-standard',
     'stylelint-config-tailwindcss'
@@ -30,7 +29,6 @@ module.exports = {
 
   rules: {
     'font-family-no-missing-generic-family-keyword': null,
-    'declaration-block-trailing-semicolon': null,
     'no-descending-specificity': null,
     'selector-pseudo-element-no-unknown': [
       true,
