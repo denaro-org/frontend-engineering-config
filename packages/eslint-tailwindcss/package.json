@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/eslint-config-tailwindcss",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "针对 tailwindcss 的 eslint 代码规范配置。",
   "keywords": [
     "denaro",
