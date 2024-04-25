@@ -113,6 +113,7 @@ module.exports = {
         svg: 'always',
         math: 'always'
       }
-    ]
+    ],
+    'import/no-duplicates': ['error', { considerQueryString: true }]
   }
 }

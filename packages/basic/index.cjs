@@ -74,6 +74,7 @@ module.exports = {
           balanced: true
         }
       }
-    ]
+    ],
+    'import/no-duplicates': ['error', { considerQueryString: true }]
   }
 }

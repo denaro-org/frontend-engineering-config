@@ -26,6 +26,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
 
   rules: {
-    '@typescript-eslint/strict-boolean-expressions': 'off'
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    'import/no-duplicates': ['error', { considerQueryString: true }]
   }
 }
