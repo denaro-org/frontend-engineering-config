@@ -26,6 +26,31 @@ module.exports = {
   plugins: ['stylelint-scss'],
 
   rules: {
-    'font-family-no-missing-generic-family-keyword': null
+    'font-family-no-missing-generic-family-keyword': null,
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'layer',
+          'config',
+          'variants',
+          'responsive',
+          'screen',
+          'function',
+          'if',
+          'else',
+          'else-if',
+          'each',
+          'include',
+          'mixin',
+          'extend',
+          'content',
+          'use',
+          'import'
+        ]
+      }
+    ]
   }
 }
