@@ -1,3 +1,9 @@
+## [1.4.6](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.5...v1.4.6) (2024-04-25)
+
+### Bug Fixes
+
+- **basic,typescript,vue3:** :bug: 补充模块重复导入验证 eslint 规则 ([d192ef8](https://github.com/denaro-org/frontend-engineering-config/commit/d192ef8becf0f5845cd4b7a48563b7fab4df1246))
+
 ## [1.4.5](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.4...v1.4.5) (2024-04-18)
 
 ### Bug Fixes
