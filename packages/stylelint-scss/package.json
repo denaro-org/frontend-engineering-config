@@ -37,8 +37,8 @@
   },
   "peerDependencies": {
     "postcss": "^8.4.38",
-    "sass": "^1.75.0",
-    "stylelint": "^16.4.0"
+    "sass": "^1.77.1",
+    "stylelint": "^16.5.0"
   },
   "publishConfig": {
     "access": "public"
