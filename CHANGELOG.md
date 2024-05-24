@@ -1,3 +1,5 @@
+## [1.4.7](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.6...v1.4.7) (2024-05-24)
+
 ## [1.4.6](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.5...v1.4.6) (2024-04-25)
 
 ### Bug Fixes
