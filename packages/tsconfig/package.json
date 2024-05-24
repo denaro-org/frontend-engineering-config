@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/tsconfig",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "前端工程化中的 tsconfig 通用配置, 提供多种打包场景的 tsconfig 配置, 您可以执行进行继承使用。",
   "keywords": [
     "denaro",
