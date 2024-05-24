@@ -78,6 +78,19 @@
     },
     {
       "dependencies": [
+        "eslint-config-love"
+      ],
+      "dependencyTypes": [
+        "dev",
+        "prod"
+      ],
+      "packages": [
+        "**"
+      ],
+      "pinVersion": "47.0.0"
+    },
+    {
+      "dependencies": [
         "@denaro-config/*"
       ],
       "dependencyTypes": [
