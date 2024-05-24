@@ -60,10 +60,10 @@
     "@denaro-config/eslint-config-prettier": "workspace:^",
     "@denaro-config/prettier": "workspace:^",
     "bumpp": "^9.4.1",
-    "conventional-changelog-cli": "^4.1.0",
+    "conventional-changelog-cli": "^5.0.0",
     "eslint": "8.57.0",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.4",
     "sort-package-json": "^2.10.0",
     "syncpack": "^12.3.2"
   }

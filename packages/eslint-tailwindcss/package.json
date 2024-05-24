@@ -22,7 +22,7 @@
   "main": "index.cjs",
   "dependencies": {
     "eslint": "8.57.0",
-    "eslint-plugin-tailwindcss": "^3.15.1",
+    "eslint-plugin-tailwindcss": "^3.17.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14"
   },

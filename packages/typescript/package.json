@@ -22,10 +22,10 @@
   "dependencies": {
     "@denaro-config/eslint-config-basic": "workspace:^",
     "@denaro-config/eslint-config-prettier": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^7.9.0",
-    "@typescript-eslint/parser": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
     "eslint": "8.57.0",
-    "eslint-config-love": "^47.0.0",
+    "eslint-config-love": "^48.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "^6.1.1",
