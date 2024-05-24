@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/config-cz-git",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "前端工程化中的 cz-git 通用配置, 与 Commitlint 配合, 获取 Commitlint 相关配置, 给予命令行提示信息。",
   "keywords": [
     "denaro",
