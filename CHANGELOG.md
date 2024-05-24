@@ -1,3 +1,9 @@
+## [1.4.8](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.7...v1.4.8) (2024-05-24)
+
+### Bug Fixes
+
+- **typescript:** :bug: 修复错误的版本号 ([e0725d5](https://github.com/denaro-org/frontend-engineering-config/commit/e0725d559ab84e9f94a5aaed35967309a4787757))
+
 ## [1.4.7](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.6...v1.4.7) (2024-05-24)
 
 ## [1.4.6](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.5...v1.4.6) (2024-04-25)
