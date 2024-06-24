@@ -23,7 +23,7 @@
   "dependencies": {
     "stylelint": "^16.6.1",
     "stylelint-config-recess-order": "^5.0.1",
-    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-config-tailwindcss": "^0.0.7",
     "stylelint-order": "^6.0.4",
