@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "commitizen": "^4.3.0",
-    "cz-git": "^1.9.2"
+    "cz-git": "^1.9.3"
   },
   "publishConfig": {
     "access": "public"
