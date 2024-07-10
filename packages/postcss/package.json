@@ -1,6 +1,6 @@
 {
   "name": "@denaro-config/postcss",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "提供 autoprefixer 主流浏览器的样式前缀配置。",
   "keywords": [
     "denaro",
