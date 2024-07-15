@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "bootstrap": "pnpm run syncpack-fix && pnpm update -r",
-    "commit": "git add .&& cz",
+    "commit": "git add . && cz",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix .",
