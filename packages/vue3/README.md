@@ -15,9 +15,9 @@
 
 ## 参考官网地址
 
-> - [eslint](https://eslint.org/)
-> - [eslint-plugin-vue](https://eslint.vuejs.org/)
-> - [Vue.js](https://v3.cn.vuejs.org/)
+> -   [eslint](https://eslint.org/)
+> -   [eslint-plugin-vue](https://eslint.vuejs.org/)
+> -   [Vue.js](https://v3.cn.vuejs.org/)
 
 ## 安装至您的项目
 
@@ -35,7 +35,7 @@ yarn add -D @denaro-config/eslint-config-vue3
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-vue3']
+    extends: ['@denaro-config/eslint-config-vue3']
 }
 ```
 
@@ -43,7 +43,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/vue3']
+    extends: ['@denaro-config/vue3']
 }
 ```
 

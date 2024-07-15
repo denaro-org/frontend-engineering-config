@@ -1,18 +1,18 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
+    "$schema": "https://json.schemastore.org/tsconfig",
 
-  "compilerOptions": {
-    // 启用允许 TypeScript 项目与项目引用一起使用的约束。
-    "composite": true,
-    // 指定生成什么模块代码。
-    "module": "ESNext",
-    // node 脚本没有 dom 环境，因此只集成 ESNext 库即可
-    "lib": ["ESNext"],
-    // 指定 TypeScript 如何从给定的模块说明符查找文件。
-    "moduleResolution": "Bundler",
-    // 启用导入 .json 文件。
-    "resolveJsonModule": true,
-    // 指定要包含但不在源文件中引用的类型包名称。
-    "types": ["node"]
-  }
+    "compilerOptions": {
+        // 启用允许 TypeScript 项目与项目引用一起使用的约束。
+        "composite": true,
+        // 指定生成什么模块代码。
+        "module": "ESNext",
+        // node 脚本没有 dom 环境，因此只集成 ESNext 库即可
+        "lib": ["ESNext"],
+        // 指定 TypeScript 如何从给定的模块说明符查找文件。
+        "moduleResolution": "Bundler",
+        // 启用导入 .json 文件。
+        "resolveJsonModule": true,
+        // 指定要包含但不在源文件中引用的类型包名称。
+        "types": ["node"]
+    }
 }

@@ -1,24 +1,24 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
+    "$schema": "https://json.schemastore.org/tsconfig",
 
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
 
-  "compilerOptions": {
-    "composite": true
-    // "baseUrl": ".",
-    // "paths": {
-    //   "@/*": ["src/*"]
-    // }
-  }
+    "compilerOptions": {
+        "composite": true
+        // "baseUrl": ".",
+        // "paths": {
+        //   "@/*": ["src/*"]
+        // }
+    }
 
-  // "include": [
-  //   "env.d.ts",
-  //   "src/**/*.ts",
-  //   "src/**/*.tsx",
-  //   "src/**/*.vue",
-  //   "tests/**/*.ts",
-  //   "tests/**/*.tsx"
-  // ],
+    // "include": [
+    //   "env.d.ts",
+    //   "src/**/*.ts",
+    //   "src/**/*.tsx",
+    //   "src/**/*.vue",
+    //   "tests/**/*.ts",
+    //   "tests/**/*.tsx"
+    // ],
 
-  // "exclude": ["src/**/__tests__/*", "node_modules", "lib", "dist"]
+    // "exclude": ["src/**/__tests__/*", "node_modules", "lib", "dist"]
 }

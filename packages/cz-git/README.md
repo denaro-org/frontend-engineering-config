@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> - [commitlint](https://commitlint.js.org/#/)
-> - [cz-git](https://cz-git.qbb.sh/zh/)
+> -   [commitlint](https://commitlint.js.org/#/)
+> -   [cz-git](https://cz-git.qbb.sh/zh/)
 
 ## 安装至您的项目
 
@@ -34,7 +34,7 @@ yarn add -D @denaro-config/config-cz-git
 
 ```js
 module.exports = {
-  ...require('@denaro-config/config-cz-git')
+    ...require('@denaro-config/config-cz-git')
 }
 ```
 
@@ -44,14 +44,14 @@ module.exports = {
 
 ```json
 {
-  "scripts": {
-    "commit": "git add .&& cz"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-git"
+    "scripts": {
+        "commit": "git add .&& cz"
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-git"
+        }
     }
-  }
 }
 ```
 

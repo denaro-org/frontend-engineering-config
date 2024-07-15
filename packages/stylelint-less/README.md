@@ -53,11 +53,11 @@ lib
 
 ```json
 {
-  "scripts": {
-    "stylelint": "stylelint \"./**/*.{css,less,vue,html}\" --fix"
-  },
-  "lint-staged": {
-    "*.{css,less,vue,html}": "stylelint --write --ignore-unknown"
-  }
+    "scripts": {
+        "stylelint": "stylelint \"./**/*.{css,less,vue,html}\" --fix"
+    },
+    "lint-staged": {
+        "*.{css,less,vue,html}": "stylelint --write --ignore-unknown"
+    }
 }
 ```

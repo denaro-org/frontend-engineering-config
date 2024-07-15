@@ -1,38 +1,38 @@
 {
-  "name": "@denaro-config/eslint-config-tailwindcss",
-  "version": "1.4.9",
-  "description": "针对 tailwindcss 的 eslint 代码规范配置。",
-  "keywords": [
-    "denaro",
-    "eslint",
-    "eslint-config",
-    "eslint-config-tailwindcss",
-    "tailwindcss"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "eslint": "8.57.0",
-    "eslint-plugin-tailwindcss": "^3.17.4",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.5.14"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8.56.10"
-  },
-  "peerDependencies": {
-    "eslint": "^8"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/eslint-config-tailwindcss",
+    "version": "1.4.9",
+    "description": "针对 tailwindcss 的 eslint 代码规范配置。",
+    "keywords": [
+        "denaro",
+        "eslint",
+        "eslint-config",
+        "eslint-config-tailwindcss",
+        "tailwindcss"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "eslint": "8.57.0",
+        "eslint-plugin-tailwindcss": "^3.17.4",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.5.14"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.56.10"
+    },
+    "peerDependencies": {
+        "eslint": "^8"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

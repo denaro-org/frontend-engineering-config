@@ -33,7 +33,7 @@ yarn add -D @denaro-config/eslint-config-basic
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-basic']
+    extends: ['@denaro-config/eslint-config-basic']
 }
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/basic']
+    extends: ['@denaro-config/basic']
 }
 ```
 
@@ -49,9 +49,9 @@ module.exports = {
 
 ```json
 {
-  "scripts": {
-    "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix ."
-  }
+    "scripts": {
+        "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix ."
+    }
 }
 ```
 

@@ -1,34 +1,34 @@
 {
-  "name": "@denaro-config/tsconfig",
-  "version": "1.4.9",
-  "description": "前端工程化中的 tsconfig 通用配置, 提供多种打包场景的 tsconfig 配置, 您可以执行进行继承使用。",
-  "keywords": [
-    "denaro",
-    "config",
-    "tsconfig",
-    "typescript",
-    "eslint"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "dependencies": {
-    "@tsconfig/node18": "^18.2.4",
-    "@types/node": "^20.14.10",
-    "@vue/tsconfig": "^0.5.1",
-    "typescript": "^5.5.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/tsconfig",
+    "version": "1.4.9",
+    "description": "前端工程化中的 tsconfig 通用配置, 提供多种打包场景的 tsconfig 配置, 您可以执行进行继承使用。",
+    "keywords": [
+        "denaro",
+        "config",
+        "tsconfig",
+        "typescript",
+        "eslint"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "dependencies": {
+        "@tsconfig/node18": "^18.2.4",
+        "@types/node": "^20.14.10",
+        "@vue/tsconfig": "^0.5.1",
+        "typescript": "^5.5.3"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

@@ -33,7 +33,7 @@ yarn add -D @denaro-config/prettier
 
 ```js
 module.exports = {
-  ...require('@denaro-config/prettier')
+    ...require('@denaro-config/prettier')
 }
 ```
 
@@ -43,12 +43,12 @@ module.exports = {
 
 ```json
 {
-  "scripts": {
-    "prettier": "prettier . --write"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  }
+    "scripts": {
+        "prettier": "prettier . --write"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    }
 }
 ```
 

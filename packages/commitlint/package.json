@@ -1,35 +1,35 @@
 {
-  "name": "@denaro-config/config-commitlint",
-  "version": "1.4.9",
-  "description": "前端工程化中的 commitlint 通用配置, 规范您的 commit message。",
-  "keywords": [
-    "denaro",
-    "config",
-    "commitlint"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2"
-  },
-  "devDependencies": {
-    "@commitlint/types": "^19.0.3"
-  },
-  "peerDependencies": {
-    "@commitlint/cli": "^19",
-    "@commitlint/config-conventional": "^19"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/config-commitlint",
+    "version": "1.4.9",
+    "description": "前端工程化中的 commitlint 通用配置, 规范您的 commit message。",
+    "keywords": [
+        "denaro",
+        "config",
+        "commitlint"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2"
+    },
+    "devDependencies": {
+        "@commitlint/types": "^19.0.3"
+    },
+    "peerDependencies": {
+        "@commitlint/cli": "^19",
+        "@commitlint/config-conventional": "^19"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

@@ -31,80 +31,80 @@ yarn add -D @denaro-config/tsconfig
 
 在项目根目录下创建 `tsconfig.json` 文件, 参考配置内容如下：
 
-- CommonJS
+-   CommonJS
 
 ```json
 {
-  "extends": "@denaro-config/tsconfig/tsconfig.json"
+    "extends": "@denaro-config/tsconfig/tsconfig.json"
 }
 ```
 
-- ESNext
+-   ESNext
 
 ```json
 {
-  "extends": "@denaro-config/tsconfig/tsconfig.esnext.json"
+    "extends": "@denaro-config/tsconfig/tsconfig.esnext.json"
 }
 ```
 
-- Vue3
+-   Vue3
 
 ```json
 {
-  "extends": "@denaro-config/tsconfig/tsconfig.vue3.json"
+    "extends": "@denaro-config/tsconfig/tsconfig.vue3.json"
 }
 ```
 
-- Vite+Vue 项目
+-   Vite+Vue 项目
 
-- `tsconfig.json`
+-   `tsconfig.json`
 
 ```json
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    },
-    {
-      "path": "./tsconfig.app.json"
-    }
-  ]
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        },
+        {
+            "path": "./tsconfig.app.json"
+        }
+    ]
 }
 ```
 
-- `tsconfig.app.json`
+-   `tsconfig.app.json`
 
 ```json
 {
-  "extends": "@denaro-config/tsconfig/tsconfig.vue3.json",
+    "extends": "@denaro-config/tsconfig/tsconfig.vue3.json",
 
-  "include": [
-    "env.d.ts",
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
+    "include": [
+        "env.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
+    ],
 
-  "exclude": ["src/**/__tests__/*", "node_modules", "lib", "dist"]
+    "exclude": ["src/**/__tests__/*", "node_modules", "lib", "dist"]
 }
 ```
 
-- `tsconfig.node.json`
+-   `tsconfig.node.json`
 
 ```json
 {
-  "extends": "@denaro-config/tsconfig/tsconfig.node.json",
+    "extends": "@denaro-config/tsconfig/tsconfig.node.json",
 
-  "include": [
-    "vite.config.*",
-    "vitest.config.*",
-    "cypress.config.*",
-    "nightwatch.conf.*",
-    "playwright.config.*"
-  ]
+    "include": [
+        "vite.config.*",
+        "vitest.config.*",
+        "cypress.config.*",
+        "nightwatch.conf.*",
+        "playwright.config.*"
+    ]
 }
 ```
 

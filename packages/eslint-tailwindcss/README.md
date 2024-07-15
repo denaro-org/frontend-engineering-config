@@ -33,7 +33,7 @@ yarn add -D @denaro-config/eslint-config-tailwindcss
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-tailwindcss']
+    extends: ['@denaro-config/eslint-config-tailwindcss']
 }
 ```
 
@@ -41,6 +41,6 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/tailwindcss']
+    extends: ['@denaro-config/tailwindcss']
 }
 ```

@@ -1,39 +1,39 @@
 {
-  "name": "@denaro-config/eslint-config-javascript",
-  "version": "1.4.9",
-  "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 javascript 项目。",
-  "keywords": [
-    "denaro",
-    "eslint",
-    "eslint-config",
-    "eslint-config-javascript"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "@denaro-config/eslint-config-basic": "workspace:^",
-    "eslint": "8.57.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-promise": "^6.4.0"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8.56.10"
-  },
-  "peerDependencies": {
-    "eslint": "^8"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/eslint-config-javascript",
+    "version": "1.4.9",
+    "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 javascript 项目。",
+    "keywords": [
+        "denaro",
+        "eslint",
+        "eslint-config",
+        "eslint-config-javascript"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "@denaro-config/eslint-config-basic": "workspace:^",
+        "eslint": "8.57.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "16.6.2",
+        "eslint-plugin-promise": "^6.4.0"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.56.10"
+    },
+    "peerDependencies": {
+        "eslint": "^8"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

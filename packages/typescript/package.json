@@ -1,45 +1,45 @@
 {
-  "name": "@denaro-config/eslint-config-typescript",
-  "version": "1.4.9",
-  "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 typescript 项目。",
-  "keywords": [
-    "denaro",
-    "eslint",
-    "eslint-config",
-    "eslint-config-typescript"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "@denaro-config/eslint-config-basic": "workspace:^",
-    "@denaro-config/eslint-config-prettier": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
-    "eslint": "8.57.0",
-    "eslint-config-love": "47.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-promise": "^6.4.0",
-    "eslint-plugin-typescript-sort-keys": "^3.2.0",
-    "typescript": "^5.5.3"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8.56.10"
-  },
-  "peerDependencies": {
-    "eslint": "^8",
-    "typescript": "^5"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/eslint-config-typescript",
+    "version": "1.4.9",
+    "description": "前端工程化中的 eslint 通用配置, 采用 standard 风格规范您的 typescript 项目。",
+    "keywords": [
+        "denaro",
+        "eslint",
+        "eslint-config",
+        "eslint-config-typescript"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "@denaro-config/eslint-config-basic": "workspace:^",
+        "@denaro-config/eslint-config-prettier": "workspace:^",
+        "@typescript-eslint/eslint-plugin": "^7.16.0",
+        "@typescript-eslint/parser": "^7.16.0",
+        "eslint": "8.57.0",
+        "eslint-config-love": "47.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "16.6.2",
+        "eslint-plugin-promise": "^6.4.0",
+        "eslint-plugin-typescript-sort-keys": "^3.2.0",
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.56.10"
+    },
+    "peerDependencies": {
+        "eslint": "^8",
+        "typescript": "^5"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

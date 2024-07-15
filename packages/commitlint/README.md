@@ -33,7 +33,7 @@ yarn add -D @denaro-config/config-commitlint
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/config-commitlint']
+    extends: ['@denaro-config/config-commitlint']
 }
 ```
 
@@ -48,12 +48,12 @@ const path = require('node:path')
 const packages = fs.readdirSync(path.resolve(__dirname, 'packages'))
 
 module.exports = {
-  prompt: {
-    scopes: [...packages]
-  },
-  rules: {
-    'scope-enum': [2, 'always', [...packages]]
-  }
+    prompt: {
+        scopes: [...packages]
+    },
+    rules: {
+        'scope-enum': [2, 'always', [...packages]]
+    }
 }
 ```
 

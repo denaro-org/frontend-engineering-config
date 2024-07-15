@@ -1,39 +1,39 @@
 {
-  "name": "@denaro-config/stylelint",
-  "version": "1.4.9",
-  "description": "前端工程化中的 stylelint 通用配置, 用于规范 css 代码质量。",
-  "keywords": [
-    "denaro",
-    "config",
-    "stylelint",
-    "eslint",
-    "css"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "stylelint": "^16.7.0",
-    "stylelint-config-recess-order": "^5.0.1",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-standard-vue": "^1.0.0",
-    "stylelint-config-tailwindcss": "^0.0.7",
-    "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "^5.0.1"
-  },
-  "peerDependencies": {
-    "postcss": "^8.4.39",
-    "stylelint": "^16.6.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/stylelint",
+    "version": "1.4.9",
+    "description": "前端工程化中的 stylelint 通用配置, 用于规范 css 代码质量。",
+    "keywords": [
+        "denaro",
+        "config",
+        "stylelint",
+        "eslint",
+        "css"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "stylelint": "^16.7.0",
+        "stylelint-config-recess-order": "^5.0.1",
+        "stylelint-config-standard": "^36.0.1",
+        "stylelint-config-standard-vue": "^1.0.0",
+        "stylelint-config-tailwindcss": "^0.0.7",
+        "stylelint-order": "^6.0.4",
+        "stylelint-prettier": "^5.0.1"
+    },
+    "peerDependencies": {
+        "postcss": "^8.4.39",
+        "stylelint": "^16.6.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

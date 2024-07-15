@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> - [eslint](https://eslint.org/)
-> - [prettier](https://prettier.io/)
+> -   [eslint](https://eslint.org/)
+> -   [prettier](https://prettier.io/)
 
 ## 安装至您的项目
 
@@ -34,7 +34,7 @@ yarn add -D @denaro-config/eslint-config-prettier
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-prettier']
+    extends: ['@denaro-config/eslint-config-prettier']
 }
 ```
 
@@ -42,7 +42,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/prettier']
+    extends: ['@denaro-config/prettier']
 }
 ```
 

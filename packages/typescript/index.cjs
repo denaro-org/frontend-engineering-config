@@ -2,31 +2,31 @@
 // @ts-check
 
 module.exports = {
-  $schema: 'https://json.schemastore.org/eslintrc.json',
+    $schema: 'https://json.schemastore.org/eslintrc.json',
 
-  plugins: ['@typescript-eslint', 'typescript-sort-keys'],
+    plugins: ['@typescript-eslint', 'typescript-sort-keys'],
 
-  extends: [
-    '@denaro-config/eslint-config-basic',
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:typescript-sort-keys/recommended',
-    'love',
-    '@denaro-config/eslint-config-prettier'
-  ],
+    extends: [
+        '@denaro-config/eslint-config-basic',
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:typescript-sort-keys/recommended',
+        'love',
+        '@denaro-config/eslint-config-prettier'
+    ],
 
-  ignorePatterns: ['.eslintrc.*', 'commitlint.config.*', 'cz.config.*'],
+    ignorePatterns: ['.eslintrc.*', 'commitlint.config.*', 'cz.config.*'],
 
-  parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 'latest'
-  },
+    parserOptions: {
+        sourceType: 'module',
+        ecmaVersion: 'latest'
+    },
 
-  parser: '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser',
 
-  rules: {
-    '@typescript-eslint/strict-boolean-expressions': 'off',
-    'import/no-duplicates': ['error', { considerQueryString: true }]
-  }
+    rules: {
+        '@typescript-eslint/strict-boolean-expressions': 'off',
+        'import/no-duplicates': ['error', { considerQueryString: true }]
+    }
 }

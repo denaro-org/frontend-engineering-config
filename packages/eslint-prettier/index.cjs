@@ -2,22 +2,22 @@
 // @ts-check
 
 module.exports = {
-  $schema: 'https://json.schemastore.org/eslintrc.json',
+    $schema: 'https://json.schemastore.org/eslintrc.json',
 
-  root: true,
+    root: true,
 
-  env: {
-    browser: true,
-    es6: true,
-    es2021: true,
-    node: true
-  },
+    env: {
+        browser: true,
+        es6: true,
+        es2021: true,
+        node: true
+    },
 
-  extends: ['plugin:prettier/recommended'],
+    extends: ['plugin:prettier/recommended'],
 
-  plugins: ['prettier'],
+    plugins: ['prettier'],
 
-  rules: {
-    'prettier/prettier': 'error'
-  }
+    rules: {
+        'prettier/prettier': 'error'
+    }
 }

@@ -1,71 +1,71 @@
 {
-  "name": "frontend-engineering-config",
-  "version": "1.4.9",
-  "private": true,
-  "description": "前端工程化通用配置整理集合, 包含 eslint、commitlint、typescript 等通用配置",
-  "keywords": [
-    "denaro",
-    "config",
-    "monorepo",
-    "eslint",
-    "commitlint",
-    "husky",
-    "lint-staged",
-    "conventional-changelog"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "bootstrap": "pnpm run syncpack-fix && pnpm update -r",
-    "commit": "git add . && cz",
-    "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
-    "preinstall": "npx only-allow pnpm",
-    "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix .",
-    "prepare": "husky install",
-    "prettier": "prettier . --write",
-    "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
-    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && npm run commit:changelog",
-    "release:check": "pnpm lint",
-    "release:publish": "pnpm -r publish --tag latest",
-    "release:version": "bumpp package.json packages/*/package.json --execute=\"pnpm release:changelog\" --commit \"build: :package: publish v%s\" --all",
-    "syncpack-fix": "npx syncpack fix-mismatches"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --fix",
-    "package.json": "sort-package-json",
-    "packages/**/package.json": "sort-package-json"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-git"
+    "name": "frontend-engineering-config",
+    "version": "1.4.9",
+    "private": true,
+    "description": "前端工程化通用配置整理集合, 包含 eslint、commitlint、typescript 等通用配置",
+    "keywords": [
+        "denaro",
+        "config",
+        "monorepo",
+        "eslint",
+        "commitlint",
+        "husky",
+        "lint-staged",
+        "conventional-changelog"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "bootstrap": "pnpm run syncpack-fix && pnpm update -r",
+        "commit": "git add . && cz",
+        "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
+        "preinstall": "npx only-allow pnpm",
+        "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix .",
+        "prepare": "husky install",
+        "prettier": "prettier . --write",
+        "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
+        "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && npm run commit:changelog",
+        "release:check": "pnpm lint",
+        "release:publish": "pnpm -r publish --tag latest",
+        "release:version": "bumpp package.json packages/*/package.json --execute=\"pnpm release:changelog\" --commit \"build: :package: publish v%s\" --all",
+        "syncpack-fix": "npx syncpack fix-mismatches"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown",
+        "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --fix",
+        "package.json": "sort-package-json",
+        "packages/**/package.json": "sort-package-json"
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-git"
+        }
+    },
+    "devDependencies": {
+        "@denaro-config/config-commitlint": "workspace:^",
+        "@denaro-config/config-cz-git": "workspace:^",
+        "@denaro-config/eslint-config-check-file": "workspace:^",
+        "@denaro-config/eslint-config-javascript": "workspace:^",
+        "@denaro-config/eslint-config-prettier": "workspace:^",
+        "@denaro-config/prettier": "workspace:^",
+        "@types/node": "^20.14.10",
+        "bumpp": "^9.4.1",
+        "conventional-changelog-cli": "^5.0.0",
+        "eslint": "8.57.0",
+        "husky": "^9.0.11",
+        "lint-staged": "^15.2.7",
+        "sort-package-json": "^2.10.0",
+        "syncpack": "^12.3.3"
     }
-  },
-  "devDependencies": {
-    "@denaro-config/config-commitlint": "workspace:^",
-    "@denaro-config/config-cz-git": "workspace:^",
-    "@denaro-config/eslint-config-check-file": "workspace:^",
-    "@denaro-config/eslint-config-javascript": "workspace:^",
-    "@denaro-config/eslint-config-prettier": "workspace:^",
-    "@denaro-config/prettier": "workspace:^",
-    "@types/node": "^20.14.10",
-    "bumpp": "^9.4.1",
-    "conventional-changelog-cli": "^5.0.0",
-    "eslint": "8.57.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.7",
-    "sort-package-json": "^2.10.0",
-    "syncpack": "^12.3.3"
-  }
 }

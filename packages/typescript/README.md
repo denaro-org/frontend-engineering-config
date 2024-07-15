@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> - [typescript](https://www.typescriptlang.org/)
-> - [eslint](https://eslint.org/)
+> -   [typescript](https://www.typescriptlang.org/)
+> -   [eslint](https://eslint.org/)
 
 ## 安装至您的项目
 
@@ -34,7 +34,7 @@ yarn add -D @denaro-config/eslint-config-typescript
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-typescript']
+    extends: ['@denaro-config/eslint-config-typescript']
 }
 ```
 
@@ -42,7 +42,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/typescript']
+    extends: ['@denaro-config/typescript']
 }
 ```
 

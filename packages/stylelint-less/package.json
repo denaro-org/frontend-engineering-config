@@ -1,44 +1,44 @@
 {
-  "name": "@denaro-config/stylelint-less",
-  "version": "1.4.9",
-  "description": "前端工程化中的 stylelint 通用配置, 用于规范 less 代码质量。",
-  "keywords": [
-    "denaro",
-    "config",
-    "stylelint",
-    "eslint",
-    "css",
-    "less"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "@denaro-config/stylelint": "workspace:^",
-    "less": "^4.2.0",
-    "postcss": "^8.4.39",
-    "postcss-html": "^1.7.0",
-    "postcss-less": "^6.0.0",
-    "prettier": "^3.3.3",
-    "stylelint": "^16.7.0",
-    "stylelint-config-recommended-less": "^3.0.1",
-    "stylelint-config-standard-less": "^3.0.1",
-    "stylelint-less": "^3.0.1"
-  },
-  "peerDependencies": {
-    "less": "^4.2.0",
-    "postcss": "^8.4.39",
-    "stylelint": "^16.6.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/stylelint-less",
+    "version": "1.4.9",
+    "description": "前端工程化中的 stylelint 通用配置, 用于规范 less 代码质量。",
+    "keywords": [
+        "denaro",
+        "config",
+        "stylelint",
+        "eslint",
+        "css",
+        "less"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "@denaro-config/stylelint": "workspace:^",
+        "less": "^4.2.0",
+        "postcss": "^8.4.39",
+        "postcss-html": "^1.7.0",
+        "postcss-less": "^6.0.0",
+        "prettier": "^3.3.3",
+        "stylelint": "^16.7.0",
+        "stylelint-config-recommended-less": "^3.0.1",
+        "stylelint-config-standard-less": "^3.0.1",
+        "stylelint-less": "^3.0.1"
+    },
+    "peerDependencies": {
+        "less": "^4.2.0",
+        "postcss": "^8.4.39",
+        "stylelint": "^16.6.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

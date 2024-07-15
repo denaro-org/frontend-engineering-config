@@ -1,34 +1,34 @@
 {
-  "name": "@denaro-config/postcss",
-  "version": "1.4.9",
-  "description": "提供 autoprefixer 主流浏览器的样式前缀配置。",
-  "keywords": [
-    "denaro",
-    "config",
-    "autoprefixer",
-    "postcss"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "autoprefixer": "^10.4.19",
-    "cssnano": "^7.0.4",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4"
-  },
-  "peerDependencies": {
-    "postcss": "^8.4.39"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/postcss",
+    "version": "1.4.9",
+    "description": "提供 autoprefixer 主流浏览器的样式前缀配置。",
+    "keywords": [
+        "denaro",
+        "config",
+        "autoprefixer",
+        "postcss"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "autoprefixer": "^10.4.19",
+        "cssnano": "^7.0.4",
+        "postcss": "^8.4.39",
+        "tailwindcss": "^3.4.4"
+    },
+    "peerDependencies": {
+        "postcss": "^8.4.39"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

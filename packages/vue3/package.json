@@ -1,44 +1,44 @@
 {
-  "name": "@denaro-config/eslint-config-vue3",
-  "version": "1.4.9",
-  "description": "前端工程化中的 vue3 项目通用配置, 严格遵守 eslint-plugin-vue 官网推荐的风格规范。",
-  "keywords": [
-    "denaro",
-    "eslint",
-    "eslint-config",
-    "eslint-config-vue",
-    "vue",
-    "vue3",
-    "eslint-plugin-vue"
-  ],
-  "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
-  "bugs": {
-    "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
-  },
-  "license": "MIT",
-  "author": "vxhly <pengchengou@gmail.com>",
-  "main": "index.cjs",
-  "dependencies": {
-    "@denaro-config/eslint-config-prettier": "workspace:^",
-    "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint": "8.57.0",
-    "eslint-config-stylelint": "^21.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-vue": "^9.27.0",
-    "typescript": "^5.5.3"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8.56.10"
-  },
-  "peerDependencies": {
-    "eslint": "^8",
-    "typescript": "^5"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@denaro-config/eslint-config-vue3",
+    "version": "1.4.9",
+    "description": "前端工程化中的 vue3 项目通用配置, 严格遵守 eslint-plugin-vue 官网推荐的风格规范。",
+    "keywords": [
+        "denaro",
+        "eslint",
+        "eslint-config",
+        "eslint-config-vue",
+        "vue",
+        "vue3",
+        "eslint-plugin-vue"
+    ],
+    "homepage": "https://github.com/denaro-org/frontend-engineering-config#readme",
+    "bugs": {
+        "url": "https://github.com/denaro-org/frontend-engineering-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/denaro-org/frontend-engineering-config.git"
+    },
+    "license": "MIT",
+    "author": "vxhly <pengchengou@gmail.com>",
+    "main": "index.cjs",
+    "dependencies": {
+        "@denaro-config/eslint-config-prettier": "workspace:^",
+        "@vue/eslint-config-typescript": "^13.0.0",
+        "eslint": "8.57.0",
+        "eslint-config-stylelint": "^21.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-vue": "^9.27.0",
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.56.10"
+    },
+    "peerDependencies": {
+        "eslint": "^8",
+        "typescript": "^5"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

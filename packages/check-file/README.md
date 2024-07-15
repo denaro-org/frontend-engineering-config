@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> - [eslint](https://eslint.org/)
-> - [eslint-plugin-check-file](https://github.com/DukeLuo/eslint-plugin-check-file)
+> -   [eslint](https://eslint.org/)
+> -   [eslint-plugin-check-file](https://github.com/DukeLuo/eslint-plugin-check-file)
 
 ## 安装至您的项目
 
@@ -34,7 +34,7 @@ yarn add -D @denaro-config/eslint-config-check-file
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/eslint-config-check-file']
+    extends: ['@denaro-config/eslint-config-check-file']
 }
 ```
 
@@ -42,7 +42,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@denaro-config/check-file']
+    extends: ['@denaro-config/check-file']
 }
 ```
 
@@ -50,9 +50,9 @@ module.exports = {
 
 ```json
 {
-  "scripts": {
-    "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix ."
-  }
+    "scripts": {
+        "lint": "eslint --ext vue,js,jsx,cjs,mjs,ts,tsx,cts,mts --fix ."
+    }
 }
 ```
 

@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> - [typescript](https://www.typescriptlang.org/)
-> - [Vue.js](https://v3.cn.vuejs.org/)
+> -   [typescript](https://www.typescriptlang.org/)
+> -   [Vue.js](https://v3.cn.vuejs.org/)
 
 ## 安装至您的项目
 

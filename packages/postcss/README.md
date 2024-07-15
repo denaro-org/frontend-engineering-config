@@ -33,6 +33,6 @@ yarn add -D @denaro-config/postcss
 
 ```js
 module.exports = {
-  ...require('@denaro-config/postcss')
+    ...require('@denaro-config/postcss')
 }
 ```

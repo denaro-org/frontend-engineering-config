@@ -2,22 +2,22 @@
 // @ts-check
 
 module.exports = {
-  $schema: 'https://json.schemastore.org/eslintrc.json',
+    $schema: 'https://json.schemastore.org/eslintrc.json',
 
-  root: true,
+    root: true,
 
-  env: {
-    browser: true,
-    es6: true,
-    es2021: true,
-    node: true
-  },
+    env: {
+        browser: true,
+        es6: true,
+        es2021: true,
+        node: true
+    },
 
-  extends: [
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-    'plugin:tailwindcss/recommended'
-  ],
+    extends: [
+        'eslint:recommended',
+        'plugin:prettier/recommended',
+        'plugin:tailwindcss/recommended'
+    ],
 
-  plugins: ['tailwindcss']
+    plugins: ['tailwindcss']
 }
