@@ -26,7 +26,7 @@
         "@denaro-config/eslint-config-prettier": "workspace:^",
         "@vue/eslint-config-typescript": "^13.0.0",
         "eslint": "8.57.0",
-        "eslint-config-stylelint": "^21.0.0",
+        "eslint-config-stylelint": "^22.0.0",
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-vue": "^9.27.0",
         "typescript": "^5.5.3"
