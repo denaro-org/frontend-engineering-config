@@ -27,11 +27,11 @@
         "stylelint-config-standard-vue": "^1.0.0",
         "stylelint-config-tailwindcss": "^0.0.7",
         "stylelint-order": "^6.0.4",
-        "stylelint-prettier": "^5.0.1"
+        "stylelint-prettier": "^5.0.2"
     },
     "peerDependencies": {
         "postcss": "^8.4.39",
-        "stylelint": "^16.6.1"
+        "stylelint": "^16.7.0"
     },
     "publishConfig": {
         "access": "public"

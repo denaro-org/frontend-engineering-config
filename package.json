@@ -39,7 +39,7 @@
         "release:check": "pnpm lint",
         "release:publish": "pnpm -r publish --tag latest",
         "release:version": "bumpp package.json packages/*/package.json --execute=\"pnpm release:changelog\" --commit \"build: :package: publish v%s\" --all",
-        "syncpack-fix": "npx syncpack fix-mismatches"
+        "syncpack-fix": "npx syncpack fix-mismatches --indent \"    \""
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown",
@@ -59,11 +59,11 @@
         "@denaro-config/eslint-config-javascript": "workspace:^",
         "@denaro-config/eslint-config-prettier": "workspace:^",
         "@denaro-config/prettier": "workspace:^",
-        "@types/node": "^20.14.10",
+        "@types/node": "^20.14.11",
         "bumpp": "^9.4.1",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "8.57.0",
-        "husky": "^9.0.11",
+        "husky": "^9.1.1",
         "lint-staged": "^15.2.7",
         "sort-package-json": "^2.10.0",
         "syncpack": "^12.3.3"

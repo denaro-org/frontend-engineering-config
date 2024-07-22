@@ -24,11 +24,11 @@
     "main": "index.cjs",
     "dependencies": {
         "commitizen": "^4.3.0",
-        "cz-git": "^1.9.3"
+        "cz-git": "^1.9.4"
     },
     "peerDependencies": {
         "commitizen": "^4.3.0",
-        "cz-git": "^1.9.3"
+        "cz-git": "^1.9.4"
     },
     "publishConfig": {
         "access": "public"
