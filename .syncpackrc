@@ -1,106 +1,118 @@
 {
-  "source": [
-    "./package.json",
-    "**/package.json"
-  ],
-  "versionGroups": [
-    {
-      "dependencies": [
-        "eslint"
-      ],
-      "dependencyTypes": [
-        "!peer"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "8.57.0"
-    },
-    {
-      "dependencies": [
-        "eslint"
-      ],
-      "dependencyTypes": [
-        "peer"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "^8"
-    },
-    {
-      "dependencies": [
-        "typescript"
-      ],
-      "dependencyTypes": [
-        "peer"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "^5"
-    },
-    {
-      "dependencies": [
-        "vue"
-      ],
-      "dependencyTypes": [
-        "peer"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "^3"
-    },
-    {
-      "dependencies": [
-        "@commitlint/*"
-      ],
-      "dependencyTypes": [
-        "peer"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "^19"
-    },
-    {
-      "dependencies": [
-        "eslint-plugin-n"
-      ],
-      "dependencyTypes": [
-        "prod"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "16.6.2"
-    },
-    {
-      "dependencies": [
-        "eslint-config-love"
-      ],
-      "dependencyTypes": [
-        "dev",
-        "prod"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "47.0.0"
-    },
-    {
-      "dependencies": [
-        "@denaro-config/*"
-      ],
-      "dependencyTypes": [
-        "prod",
-        "dev"
-      ],
-      "packages": [
-        "**"
-      ],
-      "pinVersion": "workspace:^"
-    }
-  ]
+    "source": [
+        "./package.json",
+        "**/package.json"
+    ],
+    "versionGroups": [
+        {
+            "dependencies": [
+                "eslint"
+            ],
+            "dependencyTypes": [
+                "!peer"
+            ],
+            "packages": [
+                "!@denaro-config/eslint-next"
+            ],
+            "pinVersion": "8.57.0"
+        },
+        {
+            "dependencies": [
+                "eslint"
+            ],
+            "dependencyTypes": [
+                "peer"
+            ],
+            "packages": [
+                "!@denaro-config/eslint-next"
+            ],
+            "pinVersion": "^8"
+        },
+        {
+            "dependencies": [
+                "eslint"
+            ],
+            "dependencyTypes": [
+                "*"
+            ],
+            "packages": [
+                "@denaro-config/eslint-next"
+            ],
+            "pinVersion": "^9.7.0"
+        },
+        {
+            "dependencies": [
+                "typescript"
+            ],
+            "dependencyTypes": [
+                "peer"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "^5"
+        },
+        {
+            "dependencies": [
+                "vue"
+            ],
+            "dependencyTypes": [
+                "peer"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "^3"
+        },
+        {
+            "dependencies": [
+                "@commitlint/*"
+            ],
+            "dependencyTypes": [
+                "peer"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "^19"
+        },
+        {
+            "dependencies": [
+                "eslint-plugin-n"
+            ],
+            "dependencyTypes": [
+                "prod"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "16.6.2"
+        },
+        {
+            "dependencies": [
+                "eslint-config-love"
+            ],
+            "dependencyTypes": [
+                "dev",
+                "prod"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "47.0.0"
+        },
+        {
+            "dependencies": [
+                "@denaro-config/*"
+            ],
+            "dependencyTypes": [
+                "prod",
+                "dev"
+            ],
+            "packages": [
+                "**"
+            ],
+            "pinVersion": "workspace:^"
+        }
+    ]
 }

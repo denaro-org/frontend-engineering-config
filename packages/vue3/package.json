@@ -29,10 +29,10 @@
         "eslint-config-stylelint": "^21.0.0",
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-vue": "^9.27.0",
-        "typescript": "^5.5.3"
+        "typescript": "^5.5.4"
     },
     "devDependencies": {
-        "@types/eslint": "^8.56.10"
+        "@types/eslint": "^8.56.11"
     },
     "peerDependencies": {
         "eslint": "^8",
