@@ -25,7 +25,7 @@
         "eslint-plugin-check-file": "^2.8.0"
     },
     "devDependencies": {
-        "@types/eslint": "^8.56.10"
+        "@types/eslint": "^8.56.12"
     },
     "peerDependencies": {
         "eslint": "^8"

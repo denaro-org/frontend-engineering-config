@@ -21,8 +21,8 @@
     "author": "vxhly <pengchengou@gmail.com>",
     "main": "index.cjs",
     "dependencies": {
-        "stylelint": "^16.7.0",
-        "stylelint-config-recess-order": "^5.0.1",
+        "stylelint": "^16.9.0",
+        "stylelint-config-recess-order": "^5.1.0",
         "stylelint-config-standard": "^36.0.1",
         "stylelint-config-standard-vue": "^1.0.0",
         "stylelint-config-tailwindcss": "^0.0.7",

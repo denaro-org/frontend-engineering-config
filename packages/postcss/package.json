@@ -20,10 +20,10 @@
     "author": "vxhly <pengchengou@gmail.com>",
     "main": "index.cjs",
     "dependencies": {
-        "autoprefixer": "^10.4.19",
-        "cssnano": "^7.0.4",
-        "postcss": "^8.4.39",
-        "tailwindcss": "^3.4.6"
+        "autoprefixer": "^10.4.20",
+        "cssnano": "^7.0.6",
+        "postcss": "^8.4.45",
+        "tailwindcss": "^3.4.10"
     },
     "peerDependencies": {
         "postcss": "^8.4.39"

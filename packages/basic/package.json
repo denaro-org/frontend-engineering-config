@@ -21,10 +21,10 @@
     "main": "index.cjs",
     "dependencies": {
         "eslint": "8.57.0",
-        "eslint-plugin-import": "^2.29.1"
+        "eslint-plugin-import": "^2.30.0"
     },
     "devDependencies": {
-        "@types/eslint": "^8.56.10"
+        "@types/eslint": "^8.56.12"
     },
     "peerDependencies": {
         "eslint": "^8"
