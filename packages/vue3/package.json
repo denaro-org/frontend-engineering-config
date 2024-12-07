@@ -27,9 +27,9 @@
         "@vue/eslint-config-typescript": "^13.0.0",
         "eslint": "8.57.0",
         "eslint-config-stylelint": "^21.0.0",
-        "eslint-plugin-import": "^2.30.0",
-        "eslint-plugin-vue": "^9.28.0",
-        "typescript": "^5.5.4"
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-vue": "^9.32.0",
+        "typescript": "^5.7.2"
     },
     "devDependencies": {
         "@types/eslint": "^8.56.12"

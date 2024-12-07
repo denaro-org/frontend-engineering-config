@@ -21,8 +21,8 @@
     "author": "vxhly <pengchengou@gmail.com>",
     "main": "index.cjs",
     "dependencies": {
-        "stylelint": "^16.9.0",
-        "stylelint-config-recess-order": "^5.1.0",
+        "stylelint": "^16.11.0",
+        "stylelint-config-recess-order": "^5.1.1",
         "stylelint-config-standard": "^36.0.1",
         "stylelint-config-standard-vue": "^1.0.0",
         "stylelint-config-tailwindcss": "^0.0.7",
@@ -30,8 +30,8 @@
         "stylelint-prettier": "^5.0.2"
     },
     "peerDependencies": {
-        "postcss": "^8.4.39",
-        "stylelint": "^16.7.0"
+        "postcss": "^8.4.45",
+        "stylelint": "^16.9.0"
     },
     "publishConfig": {
         "access": "public"

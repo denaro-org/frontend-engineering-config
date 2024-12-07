@@ -22,8 +22,8 @@
     "main": "index.cjs",
     "dependencies": {
         "eslint": "8.57.0",
-        "eslint-plugin-tailwindcss": "^3.17.4",
-        "prettier": "^3.3.3",
+        "eslint-plugin-tailwindcss": "^3.17.5",
+        "prettier": "^3.4.2",
         "prettier-plugin-tailwindcss": "^0.5.14"
     },
     "devDependencies": {
