@@ -1,6 +1,6 @@
 {
     "name": "@denaro-config/eslint-config-check-file",
-    "version": "1.4.10",
+    "version": "1.4.11",
     "description": "前端工程化中的 eslint 通用配置, 提供校验、规范文件或文件夹命名, 一般适用于规范单元测试文件和存放单元测试的目录。",
     "keywords": [
         "denaro",

@@ -1,6 +1,6 @@
 {
     "name": "@denaro-config/stylelint-scss",
-    "version": "1.4.10",
+    "version": "1.4.11",
     "description": "前端工程化中的 stylelint 通用配置, 用于规范 sass、scss 代码质量。",
     "keywords": [
         "denaro",
