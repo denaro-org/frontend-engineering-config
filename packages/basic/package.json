@@ -21,7 +21,7 @@
     "main": "index.cjs",
     "dependencies": {
         "eslint": "8.57.0",
-        "eslint-plugin-import": "^2.31.0"
+        "eslint-plugin-import": "^2.32.0"
     },
     "devDependencies": {
         "@types/eslint": "^8.56.12"
