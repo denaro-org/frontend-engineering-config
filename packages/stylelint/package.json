@@ -30,8 +30,8 @@
         "stylelint-prettier": "^5.0.3"
     },
     "peerDependencies": {
-        "postcss": "^8.4.49",
-        "stylelint": "^16.11.0"
+        "postcss": "^8.5.6",
+        "stylelint": "^16.26.1"
     },
     "publishConfig": {
         "access": "public"

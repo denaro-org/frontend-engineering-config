@@ -59,7 +59,7 @@
         "@denaro-config/eslint-config-javascript": "workspace:^",
         "@denaro-config/eslint-config-prettier": "workspace:^",
         "@denaro-config/prettier": "workspace:^",
-        "@types/node": "^20.19.28",
+        "@types/node": "^20.19.37",
         "bumpp": "^9.11.1",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "8.57.0",
