@@ -1,3 +1,9 @@
+## [1.4.13](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.12...v1.4.13) (2026-03-17)
+
+### Performance Improvements
+
+- :zap: 更新依赖包版本 ([46a8b1b](https://github.com/denaro-org/frontend-engineering-config/commit/46a8b1bfd4c18bfee8683a6ee3d9cfbb0da5df40))
+
 ## [1.4.12](https://github.com/denaro-org/frontend-engineering-config/compare/v1.4.11...v1.4.12) (2026-01-11)
 
 ### Performance Improvements
