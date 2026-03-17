@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> -   [typescript](https://www.typescriptlang.org/)
-> -   [eslint](https://eslint.org/)
+> - [typescript](https://www.typescriptlang.org/)
+> - [eslint](https://eslint.org/)
 
 ## 安装至您的项目
 

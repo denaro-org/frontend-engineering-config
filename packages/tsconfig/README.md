@@ -31,7 +31,7 @@ yarn add -D @denaro-config/tsconfig
 
 在项目根目录下创建 `tsconfig.json` 文件, 参考配置内容如下：
 
--   CommonJS
+- CommonJS
 
 ```json
 {
@@ -39,7 +39,7 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
--   ESNext
+- ESNext
 
 ```json
 {
@@ -47,7 +47,7 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
--   Vue3
+- Vue3
 
 ```json
 {
@@ -55,9 +55,9 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
--   Vite+Vue 项目
+- Vite+Vue 项目
 
--   `tsconfig.json`
+- `tsconfig.json`
 
 ```json
 {
@@ -73,7 +73,7 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
--   `tsconfig.app.json`
+- `tsconfig.app.json`
 
 ```json
 {
@@ -92,7 +92,7 @@ yarn add -D @denaro-config/tsconfig
 }
 ```
 
--   `tsconfig.node.json`
+- `tsconfig.node.json`
 
 ```json
 {

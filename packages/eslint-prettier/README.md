@@ -15,8 +15,8 @@
 
 ## 参考官网地址
 
-> -   [eslint](https://eslint.org/)
-> -   [prettier](https://prettier.io/)
+> - [eslint](https://eslint.org/)
+> - [prettier](https://prettier.io/)
 
 ## 安装至您的项目
 
